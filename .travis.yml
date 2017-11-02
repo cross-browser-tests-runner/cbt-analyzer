@@ -8,37 +8,13 @@ branches:
   - master
 
 env:
-  - BROWSER="android-browser" PLATFORM="crossbrowsertesting"
-  - BROWSER="aol-explorer" PLATFORM="crossbrowsertesting"
-  - BROWSER="blackberry-browser" PLATFORM="crossbrowsertesting"
-  - BROWSER="camino" PLATFORM="crossbrowsertesting"
-  - BROWSER="chrome-for-ios" PLATFORM="crossbrowsertesting"
-  - BROWSER="chrome-mobile" PLATFORM="crossbrowsertesting"
-  - BROWSER="chrome-x64" PLATFORM="crossbrowsertesting"
-  - BROWSER="chrome" PLATFORM="crossbrowsertesting"
-  - BROWSER="chromium" PLATFORM="crossbrowsertesting"
-  - BROWSER="dolphin-for-ios" PLATFORM="crossbrowsertesting"
-  - BROWSER="dolphin-mobile" PLATFORM="crossbrowsertesting"
-  - BROWSER="edge" PLATFORM="crossbrowsertesting"
-  - BROWSER="firefox-mobile" PLATFORM="crossbrowsertesting"
-  - BROWSER="firefox-x64" PLATFORM="crossbrowsertesting"
-  - BROWSER="firefox" PLATFORM="crossbrowsertesting"
-  - BROWSER="internet-explorer-x64" PLATFORM="crossbrowsertesting"
-  - BROWSER="internet-explorer" PLATFORM="crossbrowsertesting"
-  - BROWSER="maxthon-mobile-hd" PLATFORM="crossbrowsertesting"
-  - BROWSER="maxthon-mobile" PLATFORM="crossbrowsertesting"
-  - BROWSER="mobile-safari" PLATFORM="crossbrowsertesting"
-  - BROWSER="mozilla" PLATFORM="crossbrowsertesting"
-  - BROWSER="netscape" PLATFORM="crossbrowsertesting"
-  - BROWSER="opera-mini-for-ios" PLATFORM="crossbrowsertesting"
-  - BROWSER="opera-mini" PLATFORM="crossbrowsertesting"
-  - BROWSER="opera-mobile" PLATFORM="crossbrowsertesting"
-  - BROWSER="opera" PLATFORM="crossbrowsertesting"
-  - BROWSER="safari" PLATFORM="crossbrowsertesting"
-  - BROWSER="samsung-browser" PLATFORM="crossbrowsertesting"
-  - BROWSER="sleipnir-mobile" PLATFORM="crossbrowsertesting"
-  - BROWSER="uc-browser" PLATFORM="crossbrowsertesting"
-  - BROWSER="windows-phone" PLATFORM="crossbrowsertesting"
+  - BROWSER="android-browser" PLATFORM=saucelabs
+  - BROWSER="chrome" PLATFORM=saucelabs
+  - BROWSER="edge" PLATFORM=saucelabs
+  - BROWSER="firefox" PLATFORM=saucelabs
+  - BROWSER="internet-explorer" PLATFORM=saucelabs
+  - BROWSER="mobile-safari" PLATFORM=saucelabs
+  - BROWSER="safari" PLATFORM=saucelabs
 
 cache:
   directories:

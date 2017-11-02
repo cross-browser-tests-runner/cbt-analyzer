@@ -1,0 +1,69 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "SauceLabs": {
+      "local": true,
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "SauceLabs": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "SauceLabs": {
+      "JS": [
+        {
+          "os": "Windows",
+          "osVersion": "7",
+          "browser": "Internet Explorer",
+          "browserVersion": "8.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7",
+          "browser": "Internet Explorer",
+          "browserVersion": "9.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7",
+          "browser": "Internet Explorer",
+          "browserVersion": "10.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7",
+          "browser": "Internet Explorer",
+          "browserVersion": "11.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "8",
+          "browser": "Internet Explorer",
+          "browserVersion": "10.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "10",
+          "browser": "Internet Explorer",
+          "browserVersion": "11.103"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "8.1",
+          "browser": "Internet Explorer",
+          "browserVersion": "11.0"
+        }
+      ]
+    }
+  }
+}

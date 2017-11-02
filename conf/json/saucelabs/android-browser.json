@@ -1,0 +1,76 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "SauceLabs": {
+      "local": true,
+      "screenshots": true,
+      "video": true,
+      "timeout": 60
+    }
+  },
+  "parallel": {
+    "SauceLabs": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "SauceLabs": {
+      "JS": [
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Amazon Kindle Fire HD 8.9 Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "LG Nexus 4 Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.1",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.1",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android GoogleAPI Emulator"
+        }
+      ]
+    }
+  }
+}
