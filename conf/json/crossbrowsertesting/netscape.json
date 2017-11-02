@@ -7,7 +7,7 @@
     "CrossBrowserTesting": {
       "local": true,
       "screenshots": true,
-      "timeout": 60
+      "timeout": 30
     }
   },
   "parallel": {
