@@ -4,7 +4,7 @@
   "description": "Verifies dynamics of browsers on crossbrowsertesting.com",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cbtr-server --native-runner --errors-only --omit-traces --error-reports-only --omit-report-traces --config conf/json/$PLATFORM/$BROWSER.json"
+    "test": "LOG_LEVEL=WARN ./node_modules/.bin/cbtr-server --native-runner --errors-only --omit-traces --error-reports-only --omit-report-traces --config conf/json/$PLATFORM/$BROWSER.json"
   },
   "repository": {
     "type": "git",
