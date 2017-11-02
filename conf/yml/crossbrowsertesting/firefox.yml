@@ -1,0 +1,59 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      XP Service Pack 2:
+        Firefox:
+          "2.0.0.12, 3.0.11, 3.5, 3.6, 4.0-6.0":
+      XP Service Pack 3:
+        Firefox:
+          "3.5, 3.6, 7.0-9.0":
+      Vista Home:
+        Firefox:
+          "2.0.0.12, 3.0.11, 3.5, 3.6, 16.0-18.0":
+      "7 Beta":
+        Firefox:
+          "3.5, 3.6, 22.0-24.0":
+      "7 64-bit":
+        Firefox:
+          "3.5, 3.6, 28.0-30.0":
+      "8 Preview":
+        Firefox:
+          "3.5, 3.6, 43.0-45.0":
+      "8.1":
+        Firefox:
+          "46.0-48.0":
+      "10":
+        Firefox:
+          "52.0-55.0":
+    OS X:
+      Lion:
+        Firefox:
+          "3.5, 3.6, 10.0-12.0":
+      Mountain Lion:
+        Firefox:
+          "3.5, 3.6, 19.0-21.0":
+      Mavericks:
+        Firefox:
+          "3.5, 3.6, 25.0-27.0":
+      Yosemite:
+        Firefox:
+          "3.5, 3.6, 31.0-33.0":
+      El Capitan:
+        Firefox:
+          "3.5, 3.6, 34.0-36.0":
+      Sierra:
+        Firefox:
+          "49.0-51.0":
+      High Sierra:
+        Firefox:
+          "56.0":
+    Ubuntu:
+      Oneiric:
+        Firefox:
+          "13.0-15.0":
+      Vivid:
+        Firefox:
+          "40.0-42.0":
+      Trusty:
+        Firefox:
+          "37.0-39.0":

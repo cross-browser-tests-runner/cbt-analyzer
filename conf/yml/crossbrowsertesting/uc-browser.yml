@@ -1,0 +1,11 @@
+CrossBrowserTesting:
+  JS:
+    Android:
+      "4.4":
+        UC Browser:
+          "11.4":
+            Android Galaxy Tab S:
+      "5.0":
+        UC Browser:
+          "11.3":
+            Android Galaxy S6:

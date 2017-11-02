@@ -1,0 +1,7 @@
+CrossBrowserTesting:
+  JS:
+    Windows Phone:
+      "8":
+        Win Phone 8 Simulator:
+      "8.1":
+        Win Phone 8.1 Simulator:

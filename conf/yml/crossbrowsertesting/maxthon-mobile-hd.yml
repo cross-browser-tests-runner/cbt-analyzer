@@ -1,0 +1,7 @@
+CrossBrowserTesting:
+  JS:
+    Android:
+      "4.1":
+        Maxthon Mobile HD:
+          "4.3":
+            Android Galaxy Tab 2:

@@ -1,0 +1,32 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "screenshots": true,
+      "timeout": 60
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Windows",
+          "osVersion": "7 64-bit",
+          "browser": "Internet Explorer x64",
+          "browserVersion": "9.0"
+        }
+      ]
+    }
+  }
+}

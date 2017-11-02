@@ -1,0 +1,33 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "screenshots": true,
+      "timeout": 180
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Blackberry",
+          "osVersion": "Blackberry Bold 9900",
+          "browser": "Blackberry Browser",
+          "browserVersion": "9900",
+          "device": "BB Bold 9900 Simulator"
+        }
+      ]
+    }
+  }
+}

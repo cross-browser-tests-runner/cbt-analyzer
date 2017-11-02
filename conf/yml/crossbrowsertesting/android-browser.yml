@@ -1,0 +1,28 @@
+CrossBrowserTesting:
+  JS:
+    Android:
+      "2.2":
+        Android Browser:
+          "2.2":
+            Android 2.2 Simulator:
+      "2.3":
+        Android Browser:
+          "2.3":
+            Android 2.3 Simulator:
+      "4.0":
+        Android Browser:
+          "4.0":
+            Android 4.0 Simulator:
+      "4.1":
+        Android Browser:
+          "4.1":
+            Android Galaxy S3:
+      "4.2":
+        Android Browser:
+          "4.2":
+            Android Galaxy S4:
+      "4.4":
+        Android Browser:
+          "4.4":
+            Android Galaxy Tab S:
+        

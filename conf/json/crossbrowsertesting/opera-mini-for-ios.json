@@ -1,0 +1,33 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "screenshots": true,
+      "timeout": 180
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Opera Mini for iOS",
+          "browserVersion": "14.0",
+          "device": "iPad Pro"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "screenshots": true,
+      "timeout": 180
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "iOS",
+          "osVersion": "4.1",
+          "browser": "Mobile Safari",
+          "browserVersion": "4.0.4",
+          "device": "iPad 1"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "4.1",
+          "browser": "Mobile Safari",
+          "browserVersion": "4.0.5",
+          "device": "iPhone 3GS"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "4.3",
+          "browser": "Mobile Safari",
+          "browserVersion": "5.0.2",
+          "device": "iPad 2"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "5.0",
+          "browser": "Mobile Safari",
+          "browserVersion": "5.1",
+          "device": "iPhone 4s"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "5.1",
+          "browser": "Mobile Safari",
+          "browserVersion": "5.1",
+          "device": "iPad 3"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "6.0",
+          "browser": "Mobile Safari",
+          "browserVersion": "6.0",
+          "device": "iPhone 5"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "6.1",
+          "browser": "Mobile Safari",
+          "browserVersion": "6.0",
+          "device": "iPad 3 Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "7.0",
+          "browser": "Mobile Safari",
+          "browserVersion": "7.0",
+          "device": "iPad Mini Retina"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "7.1",
+          "browser": "Mobile Safari",
+          "browserVersion": "7.0",
+          "device": "iPad 4 Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.1",
+          "browser": "Mobile Safari",
+          "browserVersion": "8.0",
+          "device": "iPad Air 2"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.3",
+          "browser": "Mobile Safari",
+          "browserVersion": "8.0",
+          "device": "iPhone 6 Plus"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "9.0",
+          "browser": "Mobile Safari",
+          "browserVersion": "9.0",
+          "device": "iPhone 6s Plus"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "9.3",
+          "browser": "Mobile Safari",
+          "browserVersion": "9.0",
+          "device": "iPad Air 2 Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.0",
+          "browser": "Mobile Safari",
+          "browserVersion": "10.0",
+          "device": "iPhone 7 Plus Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.1",
+          "browser": "Mobile Safari",
+          "browserVersion": "10.0",
+          "device": "iPhone 7"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": "10.0",
+          "device": "iPad Pro"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "11.0",
+          "browser": "Mobile Safari",
+          "browserVersion": "11.0",
+          "device": "iPhone 8 Simulator"
+        }
+      ]
+    }
+  }
+}

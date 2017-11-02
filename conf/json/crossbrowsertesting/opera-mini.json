@@ -1,0 +1,68 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "screenshots": true,
+      "timeout": 180
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Android",
+          "osVersion": "2.2",
+          "browser": "Opera Mini",
+          "browserVersion": "5.1",
+          "device": "Android 2.2 Simulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Opera Mini",
+          "browserVersion": "26.0",
+          "device": "Android Nexus 4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Opera Mini",
+          "browserVersion": "24.0",
+          "device": "Android Galaxy Note 3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "Opera Mini",
+          "browserVersion": "28.0",
+          "device": "Android Galaxy S6"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Opera Mini",
+          "browserVersion": "27.0",
+          "device": "Android Nexus 9"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Opera Mini",
+          "browserVersion": "30.0",
+          "device": "Android Nexus 6P"
+        }
+      ]
+    }
+  }
+}

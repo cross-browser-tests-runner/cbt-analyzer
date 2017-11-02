@@ -1,0 +1,27 @@
+CrossBrowserTesting:
+  JS:
+    Android:
+      "4.1":
+        Firefox Mobile:
+          "47.0":
+            Android Galaxy S3:
+      "4.2":
+        Firefox Mobile:
+          "28.0":
+            Android Galaxy S4:
+      "4.4":
+        Firefox Mobile:
+          "56.0":
+            Android Galaxy Tab S:
+      "5.0":
+        Firefox Mobile:
+          "53.0":
+            Android Nexus 9:
+      "6.0":
+        Firefox Mobile:
+          "54.0":
+            Android Nexus 9:
+      "7.0":
+        Firefox Mobile:
+          "55.0":
+            Android Nexus 6P:

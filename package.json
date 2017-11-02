@@ -1,0 +1,24 @@
+{
+  "name": "cbt-analyzer",
+  "version": "1.0.0",
+  "description": "Verifies dynamics of browsers on crossbrowsertesting.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cbtr-server --native-runner --errors-only --omit-traces --error-reports-only --omit-report-traces --config conf/json/$PLATFORM/$BROWSER.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cross-browser-tests-runner/cbt-analyzer.git"
+  },
+  "author": "Reetesh Ranjan <reeteshranjan@piaxis.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cross-browser-tests-runner/cbt-analyzer/issues"
+  },
+  "homepage": "https://github.com/cross-browser-tests-runner/cbt-analyzer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-browser-tests-runner": "^1.1.1",
+    "request": "^2.83.0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "screenshots": true,
+      "timeout": 180
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.0",
+          "device": "Android Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.2",
+          "device": "Android Nexus 7"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.4",
+          "device": "Android Nexus 4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.3",
+          "device": "Android Nexus 9"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.5",
+          "device": "Android Nexus 6P"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "5.0",
+          "device": "Android Nexus 6P"
+        }
+      ]
+    }
+  }
+}

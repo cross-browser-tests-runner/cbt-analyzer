@@ -1,0 +1,44 @@
+CrossBrowserTesting:
+  JS:
+    OS X:
+      Lion:
+        Chrome x64:
+          "39.0-40.0":
+      Mountain Lion:
+        Chrome x64:
+          "41.0-42.0":
+      Mavericks:
+        Chrome x64:
+          "49.0-50.0":
+      Yosemite:
+        Chrome x64:
+          "53.0-54.0":
+      El Capitan:
+        Chrome x64:
+          "55.0-56.0":
+      Sierra:
+        Chrome x64:
+          "60.0-61.0":
+      High Sierra:
+        Chrome x64:
+          "62.0":
+    Ubuntu:
+      Vivid:
+        Chrome x64:
+          "43.0-44.0":
+      Trusty:
+        Chrome x64:
+          "47.0-48.0":
+    Windows:
+      "7 64-bit":
+        Chrome x64:
+          "37.0-38.0":
+      "8 Preview":
+        Chrome x64:
+          "45.0-46.0":
+      "8.1":
+        Chrome x64:
+          "51.0-52.0":
+      "10":
+        Chrome x64:
+          "57.0-59.0":

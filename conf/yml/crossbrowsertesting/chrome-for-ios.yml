@@ -1,0 +1,7 @@
+CrossBrowserTesting:
+  JS:
+    iOS:
+      "10.2":
+        Chrome for iOS:
+          "57.0":
+            "iPad Pro":
