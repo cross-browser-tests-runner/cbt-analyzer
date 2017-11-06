@@ -1,0 +1,19 @@
+SauceLabs:
+  JS:
+    OS X:
+      Mavericks:
+        Chrome:
+          "31.0-62.0":
+      Yosemite:
+        Chrome:
+          "37.0-62.0":
+      El Capitan:
+        Chrome:
+          "27.0-28.0, 31.0-62.0":
+      Sierra:
+        Chrome:
+          "27.0-28.0, 31.0-62.0":
+    Linux:
+      None:
+        Chrome:
+          "26.0-48.0":

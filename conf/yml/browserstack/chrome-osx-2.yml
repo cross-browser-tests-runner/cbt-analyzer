@@ -1,0 +1,15 @@
+BrowserStack:
+  JS:
+    OS X:
+      Yosemite:
+        Chrome:
+          "16.0-62.0":
+      El Capitan:
+        Chrome:
+          "16.0-62.0":
+      Sierra:
+        Chrome:
+          "27.0-62.0":
+      High Sierra:
+        Chrome:
+          "27.0-62.0":

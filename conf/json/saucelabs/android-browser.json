@@ -6,9 +6,10 @@
   "capabilities": {
     "SauceLabs": {
       "local": true,
+      "localIdentifier": "cbt-analyzer-sauce",
       "screenshots": true,
       "video": true,
-      "timeout": 60
+      "timeout": 120
     }
   },
   "parallel": {

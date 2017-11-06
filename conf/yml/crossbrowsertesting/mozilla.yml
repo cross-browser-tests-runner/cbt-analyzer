@@ -1,6 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    Windows:
-      XP Service Pack 2:
-        Mozilla:
-          "1.7.13":

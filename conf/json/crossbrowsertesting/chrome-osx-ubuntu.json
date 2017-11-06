@@ -1,0 +1,574 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting",
+      "screenshots": true,
+      "video": true,
+      "timeout": 90
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "17.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "19.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "20.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "22.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "23.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "26.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "27.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "28.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "29.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "30.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "31.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "32.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "33.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "34.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "35.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "36.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "37.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Chrome",
+          "browserVersion": "38.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "17.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "19.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "20.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "22.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "23.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "26.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "27.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "28.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "29.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "30.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "31.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "32.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "33.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "34.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "35.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "36.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "37.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Chrome",
+          "browserVersion": "38.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "17.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "19.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "20.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "22.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "23.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "26.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "27.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "28.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "29.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "30.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "31.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "32.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "33.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "34.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "35.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "36.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "37.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Chrome",
+          "browserVersion": "38.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "17.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "19.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "20.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "22.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "23.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "26.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "27.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "28.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "29.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "30.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "31.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "32.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "33.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "34.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "35.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "36.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "37.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Chrome",
+          "browserVersion": "38.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "17.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "19.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "20.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "22.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "23.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "26.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "27.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "28.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "29.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "30.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "31.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "32.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "33.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "34.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "35.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "36.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "37.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Chrome",
+          "browserVersion": "38.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Chrome",
+          "browserVersion": "16.0"
+        }
+      ]
+    }
+  }
+}

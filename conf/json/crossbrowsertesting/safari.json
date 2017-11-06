@@ -6,9 +6,10 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 90
     }
   },
   "parallel": {

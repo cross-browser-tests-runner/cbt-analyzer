@@ -1,0 +1,19 @@
+SauceLabs:
+  JS:
+    OS X:
+      Mavericks:
+        Firefox:
+          "4.0-56.0":
+      Yosemite:
+        Firefox:
+          "32.0-47.0":
+      El Capitan:
+        Firefox:
+          "4.0-56.0":
+      Sierra:
+        Firefox:
+          "4.0-56.0":
+    Linux:
+      None:
+        Firefox:
+          "4.0-45.0":

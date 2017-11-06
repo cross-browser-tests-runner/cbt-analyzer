@@ -1,0 +1,15 @@
+BrowserStack:
+  JS:
+    OS X:
+      Snow Leopard:
+        Chrome:
+          "16.0-49.0":
+      Lion:
+        Chrome:
+          "16.0-49.0":
+      Mountain Lion:
+        Chrome:
+          "16.0-45.0, 47.0-49.0":
+      Mavericks:
+        Chrome:
+          "16.0-62.0":

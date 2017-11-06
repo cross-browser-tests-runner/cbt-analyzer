@@ -1,0 +1,15 @@
+SauceLabs:
+  JS:
+    Windows:
+      "7":
+        Firefox:
+          "4.0-56.0":
+      "8":
+        Firefox:
+          "4.0-56.0":
+      "8.1":
+        Firefox:
+          "4.0-56.0":
+      "10":
+        Firefox:
+          "4.0-56.0":

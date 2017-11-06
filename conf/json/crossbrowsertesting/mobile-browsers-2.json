@@ -1,0 +1,168 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting",
+      "screenshots": true,
+      "video": true,
+      "timeout": 360
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "11.5",
+          "device": "Android Galaxy Note 3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Firefox Mobile",
+          "browserVersion": "56.0",
+          "device": "Android Galaxy Tab S"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Opera Mini",
+          "browserVersion": "24.0",
+          "device": "Android Galaxy Note 3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Opera Mobile",
+          "browserVersion": "12.1",
+          "device": "Android Nexus 5"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Sleipnir Mobile",
+          "browserVersion": "3.5",
+          "device": "Android Galaxy Note 3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "UC Browser",
+          "browserVersion": "11.4",
+          "device": "Android Galaxy Tab S"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "Firefox Mobile",
+          "browserVersion": "53.0",
+          "device": "Android Nexus 9"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.3",
+          "device": "Android Nexus 9"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "Opera Mini",
+          "browserVersion": "28.0",
+          "device": "Android Galaxy S6"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "Samsung Browser",
+          "browserVersion": "5.4",
+          "device": "Android Galaxy S6"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "UC Browser",
+          "browserVersion": "11.3",
+          "device": "Android Galaxy S6"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "12.0",
+          "device": "Android Nexus 6P"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Firefox Mobile",
+          "browserVersion": "54.0",
+          "device": "Android Nexus 9"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.5",
+          "device": "Android Nexus 6P"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Opera Mini",
+          "browserVersion": "27.0",
+          "device": "Android Nexus 9"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Opera Mobile",
+          "browserVersion": "42.0",
+          "device": "Android Nexus 9"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Firefox Mobile",
+          "browserVersion": "55.0",
+          "device": "Android Nexus 6P"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "5.0",
+          "device": "Android Nexus 6P"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Opera Mini",
+          "browserVersion": "30.0",
+          "device": "Android Nexus 6P"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Opera Mobile",
+          "browserVersion": "43.0",
+          "device": "Android Nexus 6P"
+        }
+      ]
+    }
+  }
+}

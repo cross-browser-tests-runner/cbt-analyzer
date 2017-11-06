@@ -1,0 +1,175 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting",
+      "screenshots": true,
+      "video": true,
+      "timeout": 360
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Blackberry",
+          "osVersion": "Blackberry Bold 9900",
+          "browser": "Blackberry Browser",
+          "browserVersion": "9900",
+          "device": "BB Bold 9900 Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "6.0",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "7.5",
+          "device": "iPad 4"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.1",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "6.5",
+          "device": "iPad Air 2"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.3",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "8.0",
+          "device": "iPhone 6 Plus"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Chrome for iOS",
+          "browserVersion": "57.0",
+          "device": "iPad Pro"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Dolphin for iOS",
+          "browserVersion": "9.0",
+          "device": "iPad Pro"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Opera Mini for iOS",
+          "browserVersion": "14.0",
+          "device": "iPad Pro"
+        },
+        {
+          "os": "Android",
+          "osVersion": "2.2",
+          "browser": "Opera Mini",
+          "browserVersion": "5.1",
+          "device": "Android 2.2 Simulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Opera Mobile",
+          "browserVersion": "11.50",
+          "device": "Android 4.0 Simulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Firefox Mobile",
+          "browserVersion": "47.0",
+          "device": "Android Galaxy S3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Maxthon Mobile HD",
+          "browserVersion": "4.3",
+          "device": "Android Galaxy Tab 2"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Opera Mobile",
+          "browserVersion": "37.0",
+          "device": "Android Galaxy S3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "9.4",
+          "device": "Android Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Firefox Mobile",
+          "browserVersion": "28.0",
+          "device": "Android Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.0",
+          "device": "Android Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.2",
+          "device": "Android Nexus 7"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Maxthon Mobile",
+          "browserVersion": "4.4",
+          "device": "Android Nexus 4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Opera Mini",
+          "browserVersion": "26.0",
+          "device": "Android Nexus 4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Opera Mobile",
+          "browserVersion": "16.0",
+          "device": "Android Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Sleipnir Mobile",
+          "browserVersion": "2.10",
+          "device": "Android Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Sleipnir Mobile",
+          "browserVersion": "3.4",
+          "device": "Android Nexus 4"
+        }
+      ]
+    }
+  }
+}

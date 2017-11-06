@@ -1,0 +1,15 @@
+BrowserStack:
+  JS:
+    OS X:
+      Yosemite:
+        Firefox:
+          "3.6, 4.0-56.0":
+      El Capitan:
+        Firefox:
+          "4.0-56.0":
+      Sierra:
+        Firefox:
+          "11.0-56.0":
+      High Sierra:
+        Firefox:
+          "11.0-56.0":

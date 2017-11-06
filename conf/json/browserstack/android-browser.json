@@ -1,0 +1,91 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "BrowserStack": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-browserstack",
+      "screenshots": true,
+      "video": true,
+      "timeout": 300
+    }
+  },
+  "parallel": {
+    "BrowserStack": 2
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "BrowserStack": {
+      "JS": [
+        {
+          "os": "Android",
+          "osVersion": "1.5",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "HTC Hero"
+        },
+        {
+          "os": "Android",
+          "osVersion": "1.6",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Sony Xperia X10"
+        },
+        {
+          "os": "Android",
+          "osVersion": "2.2",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "HTC Wildfire"
+        },
+        {
+          "os": "Android",
+          "osVersion": "2.3",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Motorola Droid Razr"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Sony Xperia Tipo"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy S3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Google Nexus 4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.3",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "HTC One M8"
+        }
+      ]
+    }
+  }
+}

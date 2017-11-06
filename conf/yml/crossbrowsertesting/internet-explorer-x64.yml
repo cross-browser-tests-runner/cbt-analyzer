@@ -1,6 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    Windows:
-      "7 64-bit":
-        Internet Explorer x64:
-          "9.0":

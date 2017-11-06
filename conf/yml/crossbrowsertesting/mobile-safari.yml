@@ -2,11 +2,7 @@ CrossBrowserTesting:
   JS:
     iOS:
       "4.1":
-        Mobile Safari:
-          "4.0.4":
-            iPad 1:
-          "4.0.5":
-            iPhone 3GS:
+        iPhone 3GS:
       "4.3":
         iPad 2:
       "5.0":
