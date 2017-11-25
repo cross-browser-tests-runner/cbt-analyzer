@@ -8,50 +8,16 @@ branches:
   - master
 
 env:
-  - SET="android-browser" SYS=browserstack
-  - SET="android-browser" SYS=saucelabs
-  - SET="android-browser" SYS=crossbrowsertesting
-  - SET="edge" SYS=browserstack
-  - SET="edge" SYS=crossbrowsertesting
-  - SET="edge" SYS=saucelabs
-  - SET="internet-explorer" SYS=browserstack
-  - SET="internet-explorer" SYS=crossbrowsertesting
-  - SET="internet-explorer" SYS=saucelabs
-  - SET="mobile-safari" SYS=browserstack
-  - SET="mobile-safari" SYS=crossbrowsertesting
-  - SET="mobile-safari" SYS=saucelabs
-  - SET="safari" SYS=browserstack
-  - SET="safari" SYS=crossbrowsertesting
-  - SET="safari" SYS=saucelabs
-  - SET="chrome-osx-1" SYS=browserstack
-  - SET="chrome-osx-ubuntu" SYS=crossbrowsertesting
-  - SET="chrome-osx-lnx" SYS=saucelabs
-  - SET="chrome-win-1" SYS=browserstack
-  - SET="chrome-win" SYS=crossbrowsertesting
-  - SET="chrome-win" SYS=saucelabs
-  - SET="firefox-osx-1" SYS=browserstack
-  - SET="firefox-osx-ubuntu" SYS=crossbrowsertesting
-  - SET="firefox-osx-lnx" SYS=saucelabs
-  - SET="firefox-win-1" SYS=browserstack
-  - SET="firefox-win" SYS=crossbrowsertesting
-  - SET="firefox-win" SYS=saucelabs
-  - SET="chrome-osx-2" SYS=browserstack
-  - SET="chrome-mobile" SYS=crossbrowsertesting
-  - SET="chrome-win-2" SYS=browserstack
-  - SET="desktop-browsers" SYS=crossbrowsertesting
-  - SET="firefox-osx-2" SYS=browserstack
-  - SET="mobile-browsers-1" SYS=crossbrowsertesting
-  - SET="firefox-win-2" SYS=browserstack
-  - SET="mobile-browsers-2" SYS=crossbrowsertesting
-  - SET="opera-osx-1" SYS=browserstack
-  - SET="opera-osx-ubuntu" SYS=crossbrowsertesting
-  - SET="opera-osx-2" SYS=browserstack
-  - SET="opera-win" SYS=crossbrowsertesting
-  - SET="opera-win-1" SYS=browserstack
-  - SET="windows-phone" SYS=crossbrowsertesting
-  - SET="opera-win-2" SYS=browserstack
   - SET="windows-phone" SYS=browserstack
-  - SET="yandex" SYS=browserstack
+  - SET="chrome-osx-1" SYS=crossbrowsertesting
+  - SET="chrome-osx-ubuntu" SYS=crossbrowsertesting
+  - SET="chrome-win" SYS=crossbrowsertesting
+  - SET="firefox-osx-1" SYS=crossbrowsertesting
+  - SET="firefox-osx-ubuntu" SYS=crossbrowsertesting
+  - SET="firefox-win" SYS=crossbrowsertesting
+  - SET="opera-osx-1" SYS=crossbrowsertesting
+  - SET="opera-osx-ubuntu" SYS=crossbrowsertesting
+  - SET="opera-win" SYS=crossbrowsertesting
 
 cache:
   directories:

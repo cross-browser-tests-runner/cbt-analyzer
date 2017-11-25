@@ -1,18 +1,6 @@
 CrossBrowserTesting:
   JS:
     Windows:
-      XP Service Pack 2:
-        Chrome:
-          "17.0-49.0":
-      XP Service Pack 3:
-        Chrome:
-          "17.0-49.0":
-      Vista Home:
-        Chrome:
-          "6.0, 12.0, 17.0-50.0":
-      "7 Beta":
-        Chrome:
-          "17.0-62.0":
       "7 64-bit":
         Chrome:
           "17.0-62.0":
@@ -22,6 +10,3 @@ CrossBrowserTesting:
       "8.1":
         Chrome:
           "30.0-62.0":
-      "10":
-        Chrome:
-          "43.0-62.0":

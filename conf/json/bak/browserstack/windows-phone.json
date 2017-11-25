@@ -8,6 +8,7 @@
       "local": true,
       "localIdentifier": "cbt-analyzer-browserstack",
       "screenshots": true,
+      "video": true,
       "timeout": 120
     }
   },
