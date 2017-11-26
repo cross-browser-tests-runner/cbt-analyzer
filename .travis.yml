@@ -8,16 +8,8 @@ branches:
   - master
 
 env:
-  - SET="windows-phone" SYS=browserstack
-  - SET="chrome-osx-1" SYS=crossbrowsertesting
-  - SET="chrome-osx-ubuntu" SYS=crossbrowsertesting
   - SET="chrome-win" SYS=crossbrowsertesting
   - SET="firefox-osx-1" SYS=crossbrowsertesting
-  - SET="firefox-osx-ubuntu" SYS=crossbrowsertesting
-  - SET="firefox-win" SYS=crossbrowsertesting
-  - SET="opera-osx-1" SYS=crossbrowsertesting
-  - SET="opera-osx-ubuntu" SYS=crossbrowsertesting
-  - SET="opera-win" SYS=crossbrowsertesting
 
 cache:
   directories:
