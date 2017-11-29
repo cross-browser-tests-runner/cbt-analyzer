@@ -1,9 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    Windows:
-      "8 Preview":
-        Opera:
-          "11.11, 11.50, 11.60, 12.02, 12.12, 15.0-48.0":
-      "8.1":
-        Opera:
-          "15.0-48.0":

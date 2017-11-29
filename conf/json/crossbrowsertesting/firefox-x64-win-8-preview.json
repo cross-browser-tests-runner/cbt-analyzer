@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-firefox-x64-win-8-preview",
+      "localIdentifier": "firefox-x64-win-8-preview",
       "screenshots": true,
       "video": true,
       "timeout": 30

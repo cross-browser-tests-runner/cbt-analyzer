@@ -6,7 +6,7 @@
   "capabilities": {
     "SauceLabs": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-saucelabs-chrome-linux",
+      "localIdentifier": "chrome-linux",
       "screenshots": true,
       "video": true,
       "timeout": 30

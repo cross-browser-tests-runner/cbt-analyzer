@@ -6,7 +6,7 @@
   "capabilities": {
     "BrowserStack": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-browserstack-firefox-win-xp",
+      "localIdentifier": "firefox-win-xp",
       "screenshots": true,
       "video": true,
       "timeout": 60

@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-sleipnir-mobile",
+      "localIdentifier": "sleipnir-mobile",
       "screenshots": true,
       "video": true,
       "timeout": 30

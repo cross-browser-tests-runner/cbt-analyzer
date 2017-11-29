@@ -1,9 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    Windows:
-      "8 Preview":
-        Firefox:
-          "3.5, 3.6, 4.0-56.0":
-      "8.1":
-        Firefox:
-          "24.0-56.0":

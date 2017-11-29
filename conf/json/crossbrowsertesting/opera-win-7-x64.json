@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-opera-win-7-x64",
+      "localIdentifier": "opera-win-7-x64",
       "screenshots": true,
       "video": true,
       "timeout": 40

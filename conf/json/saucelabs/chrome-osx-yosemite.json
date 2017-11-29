@@ -6,7 +6,7 @@
   "capabilities": {
     "SauceLabs": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-saucelabs-chrome-osx-yosemite",
+      "localIdentifier": "chrome-osx-yosemite",
       "screenshots": true,
       "video": true,
       "timeout": 30

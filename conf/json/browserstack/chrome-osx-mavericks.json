@@ -6,7 +6,7 @@
   "capabilities": {
     "BrowserStack": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-browserstack-chrome-osx-mavericks",
+      "localIdentifier": "chrome-osx-mavericks",
       "screenshots": true,
       "video": true,
       "timeout": 60

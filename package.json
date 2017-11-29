@@ -18,7 +18,7 @@
   "homepage": "https://github.com/cross-browser-tests-runner/cbt-analyzer#readme",
   "dependencies": {},
   "devDependencies": {
-    "cross-browser-tests-runner": "^1.2.1",
+    "cross-browser-tests-runner": "^1.2.3",
     "request": "^2.83.0"
   }
 }

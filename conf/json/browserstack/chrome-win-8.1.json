@@ -6,7 +6,7 @@
   "capabilities": {
     "BrowserStack": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-browserstack-chrome-win-8.1",
+      "localIdentifier": "chrome-win-8-1",
       "screenshots": true,
       "video": true,
       "timeout": 60

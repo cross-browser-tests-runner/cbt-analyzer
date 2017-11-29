@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-firefox-osx-lion",
+      "localIdentifier": "firefox-osx-lion",
       "screenshots": true,
       "video": true,
       "timeout": 30
