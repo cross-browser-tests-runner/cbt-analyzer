@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-android-browser",
+      "localIdentifier": "android-browser",
       "screenshots": true,
       "video": true,
       "timeout": 30

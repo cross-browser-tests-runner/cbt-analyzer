@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-opera-ubuntu-oneiric",
+      "localIdentifier": "opera-ubuntu-oneiric",
       "screenshots": true,
       "video": true,
       "timeout": 40

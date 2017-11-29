@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-firefox-win-vista-home",
+      "localIdentifier": "firefox-win-vista-home",
       "screenshots": true,
       "video": true,
       "timeout": 30

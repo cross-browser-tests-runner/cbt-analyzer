@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-chrome-x64-ubuntu-vivid",
+      "localIdentifier": "chrome-x64-ubuntu-vivid",
       "screenshots": true,
       "video": true,
       "timeout": 30

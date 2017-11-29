@@ -6,7 +6,7 @@
   "capabilities": {
     "BrowserStack": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-browserstack-opera-osx-yosemite",
+      "localIdentifier": "opera-osx-yosemite",
       "screenshots": true,
       "video": true,
       "timeout": 60

@@ -6,7 +6,7 @@
   "capabilities": {
     "BrowserStack": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-browserstack-chrome-osx-high-sierra",
+      "localIdentifier": "chrome-osx-high-sierra",
       "screenshots": true,
       "video": true,
       "timeout": 60

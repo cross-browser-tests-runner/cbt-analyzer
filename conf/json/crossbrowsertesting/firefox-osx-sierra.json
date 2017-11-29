@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-firefox-osx-sierra",
+      "localIdentifier": "firefox-osx-sierra",
       "screenshots": true,
       "video": true,
       "timeout": 30

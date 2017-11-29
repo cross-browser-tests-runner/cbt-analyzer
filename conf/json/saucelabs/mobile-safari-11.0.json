@@ -6,7 +6,7 @@
   "capabilities": {
     "SauceLabs": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-saucelabs-mobile-safari-11.0",
+      "localIdentifier": "mobile-safari-11-0",
       "screenshots": true,
       "video": true,
       "timeout": 60

@@ -6,7 +6,7 @@
   "capabilities": {
     "BrowserStack": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-browserstack-{conf}",
+      "localIdentifier": "{conf}",
       "screenshots": true,
       "video": true,
       "timeout": 60

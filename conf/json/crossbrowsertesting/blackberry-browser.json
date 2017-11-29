@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-blackberry-browser",
+      "localIdentifier": "blackberry-browser",
       "screenshots": true,
       "video": true,
       "timeout": 60

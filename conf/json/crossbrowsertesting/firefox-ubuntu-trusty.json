@@ -6,7 +6,7 @@
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting-firefox-ubuntu-trusty",
+      "localIdentifier": "firefox-ubuntu-trusty",
       "screenshots": true,
       "video": true,
       "timeout": 30
