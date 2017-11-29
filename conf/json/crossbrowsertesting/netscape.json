@@ -1,0 +1,52 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-netscape",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 2",
+          "browser": "Netscape",
+          "browserVersion": "7.2"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 2",
+          "browser": "Netscape",
+          "browserVersion": "8.1.2"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 2",
+          "browser": "Netscape",
+          "browserVersion": "9.0.0.5"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "Vista Home",
+          "browser": "Netscape",
+          "browserVersion": "9.0.0.5"
+        }
+      ]
+    }
+  }
+}

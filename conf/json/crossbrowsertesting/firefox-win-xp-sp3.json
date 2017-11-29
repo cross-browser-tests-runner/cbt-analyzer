@@ -1,0 +1,298 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-firefox-win-xp-sp3",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "3.5"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "3.6"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "4.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "5.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "6.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "7.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "8.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "9.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "10.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "11.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "12.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "13.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "14.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "15.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "16.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "17.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "18.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "19.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "20.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "21.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "22.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "23.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "24.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "25.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "26.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "27.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "28.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "29.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "30.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "31.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "32.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "33.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "34.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "35.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "36.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "37.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "38.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "39.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "40.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "41.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "42.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "43.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "44.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "45.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Firefox",
+          "browserVersion": "46.0"
+        }
+      ]
+    }
+  }
+}

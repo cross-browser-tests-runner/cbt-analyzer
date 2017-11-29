@@ -1,15 +1,15 @@
 {
   "test_file": "tests/html/jasmine/tests.html",
   "framework": "jasmine",
-  "retries": 1,
+  "retries": 3,
   "limit": "4mb",
   "capabilities": {
     "CrossBrowserTesting": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-crossbrowsertesting",
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-{conf}",
       "screenshots": true,
       "video": true,
-      "timeout": 90
+      "timeout": 60
     }
   },
   "parallel": {

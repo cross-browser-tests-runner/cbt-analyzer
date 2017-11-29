@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      Snow Leopard:
+        Opera:
+          "11.1, 11.6, 12.0, 12.12, 12.14, 12.15, 15.0-25.0":

@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      XP Service Pack 3:
+        Firefox:
+          "3.5, 3.6, 4.0-46.0":

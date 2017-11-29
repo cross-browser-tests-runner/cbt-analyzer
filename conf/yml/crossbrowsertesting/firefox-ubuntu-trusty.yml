@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Ubuntu:
+      Trusty:
+        Firefox:
+          "30.0-44.0":

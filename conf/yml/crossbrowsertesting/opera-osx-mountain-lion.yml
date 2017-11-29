@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    OS X:
+      Mountain Lion:
+        Opera:
+          "11.11, 11.50, 11.60, 12.00, 12.12, 12.14, 19.0-21.0, 24.0-36.0":

@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      Lion:
+        Chrome:
+          "16.0-49.0":

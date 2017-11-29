@@ -1,0 +1,6 @@
+SauceLabs:
+  JS:
+    Windows:
+      "8":
+        Chrome:
+          "26.0-62.0":

@@ -1,0 +1,94 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-firefox-osx-sierra",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "47.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "48.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "49.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "50.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "51.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "52.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "53.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "54.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "55.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "56.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Firefox",
+          "browserVersion": "57.0"
+        }
+      ]
+    }
+  }
+}

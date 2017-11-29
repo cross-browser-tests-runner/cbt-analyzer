@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    OS X:
+      Yosemite:
+        Chrome x64:
+          "39.0-62.0":

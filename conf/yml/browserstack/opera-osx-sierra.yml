@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      Sierra:
+        Opera:
+          "12.12, 12.14, 12.15, 15.0-49.0":

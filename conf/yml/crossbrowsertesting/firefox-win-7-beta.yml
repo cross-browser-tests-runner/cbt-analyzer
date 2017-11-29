@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      "7 Beta":
+        Firefox:
+          "3.5, 3.6, 4.0-57.0":

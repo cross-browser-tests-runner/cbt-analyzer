@@ -1,0 +1,124 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 2,
+  "limit": "4mb",
+  "capabilities": {
+    "SauceLabs": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-saucelabs-firefox-osx-yosemite",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "SauceLabs": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "SauceLabs": {
+      "JS": [
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "32.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "33.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "34.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "35.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "36.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "37.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "38.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "39.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "40.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "41.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "42.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "43.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "44.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "45.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "46.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Firefox",
+          "browserVersion": "47.0"
+        }
+      ]
+    }
+  }
+}

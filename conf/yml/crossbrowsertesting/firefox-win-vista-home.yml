@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      Vista Home:
+        Firefox:
+          "2.0.0.12, 3.0.11, 3.5, 3.6, 4.0-46.0":

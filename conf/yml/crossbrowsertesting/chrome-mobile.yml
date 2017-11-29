@@ -1,0 +1,60 @@
+CrossBrowserTesting:
+  JS:
+    Android:
+      "4.1":
+        Chrome Mobile:
+          "51.0":
+            Android Galaxy S3:
+          "60.0":
+            Android Galaxy Tab 2:
+      "4.2":
+        Chrome Mobile:
+          "33.0":
+            Android Galaxy S4:
+          "57.0":
+            Android Nexus 7:
+          "58.0":
+            Android Nexus 4:
+      "4.4":
+        Chrome Mobile:
+          "58.0":
+            Android Galaxy Note 3:
+          "60.0":
+            Android Galaxy S5:
+          "61.0":
+            Android Galaxy Tab S, Android Nexus 5:
+      "5.0":
+        Chrome Mobile:
+          "58.0":
+            Android Nexus 9:
+          "59.0":
+            Android Galaxy S6:
+          "61.0":
+            Android Nexus 6:
+      "6.0":
+        Chrome Mobile:
+          "59.0":
+            Android Nexus 6P, Android Nexus 9:
+      "7.0":
+        Chrome Mobile:
+          "62.0":
+            Android Nexus 6P:
+    iOS:
+      "6.0":
+        Chrome Mobile:
+          "33.0":
+            iPad 4:
+      "7.0":
+        Chrome Mobile:
+          "33.0":
+            iPad Mini Retina:
+      "8.1":
+        Chrome Mobile:
+          "41.0":
+            iPhone 6:
+          "43.0":
+            iPad Air 2:
+      "9.0":
+        Chrome Mobile:
+          "47.0":
+            iPhone 6s, iPhone 6s Plus:

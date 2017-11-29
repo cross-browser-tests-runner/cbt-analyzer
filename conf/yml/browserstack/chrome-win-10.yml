@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    Windows:
+      "10":
+        Chrome:
+          "37.0-62.0":

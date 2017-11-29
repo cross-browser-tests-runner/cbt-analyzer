@@ -1,0 +1,140 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 2,
+  "limit": "4mb",
+  "capabilities": {
+    "SauceLabs": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-saucelabs-mobile-safari-10.2",
+      "screenshots": true,
+      "video": true,
+      "timeout": 60
+    }
+  },
+  "parallel": {
+    "SauceLabs": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "SauceLabs": {
+      "JS": [
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Air 2 Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Air Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Pro (12.9 inch) Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Pro (9.7 inch) Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Retina Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 5 Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 5s Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 6 Plus Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 6 Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 6s Plus Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 6s Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 7 Plus Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 7 Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone SE Simulator"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone Simulator"
+        }
+      ]
+    }
+  }
+}

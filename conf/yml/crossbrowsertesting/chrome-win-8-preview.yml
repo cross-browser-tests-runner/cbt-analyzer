@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      "8 Preview":
+        Chrome:
+          "17.0-62.0":

@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      El Capitan:
+        Chrome:
+          "16.0-62.0":

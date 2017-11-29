@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      XP Service Pack 2:
+        Opera:
+          "8.02, 9.25, 9.50, 9.64, 10.10, 11.11, 11.50, 11.60, 12.12, 15.0-36.0":

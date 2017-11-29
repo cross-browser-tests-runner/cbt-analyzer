@@ -1,0 +1,118 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-firefox-ubuntu-trusty",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "30.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "31.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "32.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "33.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "34.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "35.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "36.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "37.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "38.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "39.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "40.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "41.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "42.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "43.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Firefox",
+          "browserVersion": "44.0"
+        }
+      ]
+    }
+  }
+}

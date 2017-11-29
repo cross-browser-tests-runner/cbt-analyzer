@@ -1,0 +1,9 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      XP Service Pack 2:
+        Netscape:
+          "7.2, 8.1.2, 9.0.0.5":
+      Vista Home:
+        Netscape:
+          "9.0.0.5":

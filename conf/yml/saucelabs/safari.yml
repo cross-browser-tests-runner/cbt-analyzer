@@ -1,0 +1,15 @@
+SauceLabs:
+  JS:
+    OS X:
+      Mavericks:
+        Safari:
+          "7.0":
+      Yosemite:
+        Safari:
+          "8.0":
+      El Capitan:
+        Safari:
+          "9.0-10.0":
+      Sierra:
+        Safari:
+          "10.1, 11.0":

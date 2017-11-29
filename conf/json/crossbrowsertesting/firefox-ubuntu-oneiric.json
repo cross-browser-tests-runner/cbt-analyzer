@@ -1,0 +1,94 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-firefox-ubuntu-oneiric",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "7.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "9.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "11.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "12.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "13.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "14.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "15.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "16.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "17.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "20.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Firefox",
+          "browserVersion": "33.0"
+        }
+      ]
+    }
+  }
+}

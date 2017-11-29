@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    OS X:
+      Sierra:
+        Chrome x64:
+          "52.0-62.0":

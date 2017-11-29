@@ -1,0 +1,15 @@
+SauceLabs:
+  JS:
+    Android:
+      "4.4":
+        Amazon Kindle Fire HD 8.9 Emulator, Amazon Kindle Fire HD 8.9 GoogleAPI Emulator, Android Emulator, Android GoogleAPI Emulator, Google Nexus 7 HD Emulator, Google Nexus 7 HD GoogleAPI Emulator, Google Nexus 7C Emulator, Google Nexus 7C GoogleAPI Emulator, LG Nexus 4 Emulator, LG Nexus 4 GoogleAPI Emulator, Samsung Galaxy Nexus Emulator, Samsung Galaxy Nexus GoogleAPI Emulator, Samsung Galaxy S3 Emulator, Samsung Galaxy S3 GoogleAPI Emulator, Samsung Galaxy S4 Emulator, Samsung Galaxy S4 GoogleAPI Emulator:
+      "5.0":
+        Android Emulator, Android GoogleAPI Emulator:
+      "5.1":
+        Android Emulator, Android GoogleAPI Emulator:
+      "6.0":
+        Android Emulator, Android GoogleAPI Emulator:
+      "7.0":
+        Android GoogleAPI Emulator:
+      "7.1":
+        Android GoogleAPI Emulator:

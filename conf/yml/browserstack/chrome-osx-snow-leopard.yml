@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      Snow Leopard:
+        Chrome:
+          "16.0-49.0":

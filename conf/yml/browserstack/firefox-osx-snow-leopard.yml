@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      Snow Leopard:
+        Firefox:
+          "4.0-48.0":

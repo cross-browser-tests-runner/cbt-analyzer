@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      "8.1":
+        Firefox:
+          "24.0-57.0":

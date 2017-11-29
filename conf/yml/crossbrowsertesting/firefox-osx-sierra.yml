@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    OS X:
+      Sierra:
+        Firefox:
+          "47.0-57.0":

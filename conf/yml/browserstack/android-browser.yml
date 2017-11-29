@@ -1,0 +1,33 @@
+BrowserStack:
+  JS:
+    Android:
+      "1.5":
+        HTC Hero:
+      "1.6":
+        Sony Xperia X10:
+      "2.2":
+        HTC Wildfire, Samsung Galaxy S:
+      "2.3":
+        Motorola Droid Razr, Samsung Galaxy Note, Samsung Galaxy S2:
+      "4.0":
+        Sony Xperia Tipo, Amazon Kindle Fire HD 8.9, Google Nexus, HTC One X, Motorola Razr, Samsung Galaxy Note 10.1, Samsung Galaxy Tab 2 10.1:
+      "4.1":
+        Samsung Galaxy S3, Google Nexus 7, Samsung Galaxy Note 2:
+      "4.2":
+        Google Nexus 4:
+      "4.3":
+        Samsung Galaxy S4, Amazon Kindle Fire HDX 7, Samsung Galaxy Note 3:
+      "4.4":
+        HTC One M8, Google Nexus 5, Samsung Galaxy Note 4, Samsung Galaxy S5, Samsung Galaxy S5 Mini, Samsung Galaxy Tab 4, Samsung Galaxy Tab 4 10.1:
+      "5.0":
+        Google Nexus 5, Google Nexus 6, Google Nexus 9, Motorola Moto X 2nd Gen, Samsung Galaxy S6:
+      "5.1":
+        Google Nexus 9:
+      "6.0":
+        Google Nexus 6, Motorola Moto X 2nd Gen, Samsung Galaxy Note 4, Samsung Galaxy S7:
+      "7.0":
+        Samsung Galaxy S8, Samsung Galaxy S8 Plus:
+      "7.1":
+        Google Pixel:
+      "8.0":
+        Google Pixel:

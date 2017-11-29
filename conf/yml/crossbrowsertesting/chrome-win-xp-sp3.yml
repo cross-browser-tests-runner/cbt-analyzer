@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      XP Service Pack 3:
+        Chrome:
+          "17.0-49.0":

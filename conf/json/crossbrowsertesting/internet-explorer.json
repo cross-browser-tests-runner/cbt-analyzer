@@ -1,0 +1,112 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-internet-explorer",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Windows",
+          "osVersion": "10",
+          "browser": "Internet Explorer",
+          "browserVersion": "11.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 2",
+          "browser": "Internet Explorer",
+          "browserVersion": "6.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 2",
+          "browser": "Internet Explorer",
+          "browserVersion": "7.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Internet Explorer",
+          "browserVersion": "8.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "Vista Home",
+          "browser": "Internet Explorer",
+          "browserVersion": "7.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "Vista Home",
+          "browser": "Internet Explorer",
+          "browserVersion": "8.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "Vista Home",
+          "browser": "Internet Explorer",
+          "browserVersion": "9.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7 Beta",
+          "browser": "Internet Explorer",
+          "browserVersion": "8.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7 Beta",
+          "browser": "Internet Explorer",
+          "browserVersion": "9.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7 64-bit",
+          "browser": "Internet Explorer",
+          "browserVersion": "9.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7 64-bit",
+          "browser": "Internet Explorer",
+          "browserVersion": "10.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7 64-bit",
+          "browser": "Internet Explorer",
+          "browserVersion": "11.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "8 Preview",
+          "browser": "Internet Explorer",
+          "browserVersion": "10.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "8.1",
+          "browser": "Internet Explorer",
+          "browserVersion": "11.0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-safari",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Safari",
+          "browserVersion": "6.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Safari",
+          "browserVersion": "6.2"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Safari",
+          "browserVersion": "7.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Safari",
+          "browserVersion": "8.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Safari",
+          "browserVersion": "9.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Safari",
+          "browserVersion": "10.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "High Sierra",
+          "browser": "Safari",
+          "browserVersion": "11.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "Vista Home",
+          "browser": "Safari",
+          "browserVersion": "3.1.2"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "Vista Home",
+          "browser": "Safari",
+          "browserVersion": "4.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "Vista Home",
+          "browser": "Safari",
+          "browserVersion": "5.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 2",
+          "browser": "Safari",
+          "browserVersion": "3.1.2"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP Service Pack 3",
+          "browser": "Safari",
+          "browserVersion": "5.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7 Beta",
+          "browser": "Safari",
+          "browserVersion": "5.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7 Beta",
+          "browser": "Safari",
+          "browserVersion": "5.1"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "8 Preview",
+          "browser": "Safari",
+          "browserVersion": "5.1"
+        }
+      ]
+    }
+  }
+}

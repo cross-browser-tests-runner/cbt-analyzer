@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Ubuntu:
+      Oneiric:
+        Firefox:
+          "7.0, 9.0, 11.0-17.0, 20.0, 33.0":

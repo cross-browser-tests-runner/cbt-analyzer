@@ -1,0 +1,7 @@
+CrossBrowserTesting:
+  JS:
+    iOS:
+      "10.2":
+        Opera Mini for iOS:
+          "14.0":
+            iPad Pro:

@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Ubuntu:
+      Oneiric:
+        Opera:
+          "11.52":

@@ -1,0 +1,49 @@
+CrossBrowserTesting:
+  JS:
+    Android:
+      "2.3":
+        Opera Mobile:
+          "11.50":
+            Android 2.3 Simulator:
+      "4.0":
+        Opera Mobile:
+          "11.50":
+            Android 4.0 Simulator:
+      "4.1":
+        Opera Mobile:
+          "12.1":
+            Android Galaxy Tab 2:
+          "37.0":
+            Android Galaxy S3:
+          "42.0":
+            Android Galaxy Tab 2:
+      "4.2":
+        Opera Mobile:
+          "12.1":
+            Android Galaxy S4:
+          "16.0":
+            Android Galaxy S4:
+          "42.0":
+            Android Nexus 4, Android Nexus 7:
+      "4.4":
+        Opera Mobile:
+          "12.1":
+            Android Nexus 5:
+          "42.0":
+            Android Galaxy Note 3, Android Galaxy S5:
+          "43.0":
+            Android Galaxy Tab S, Android Nexus 5:
+      "5.0":
+        Opera Mobile:
+          "42.0":
+            Android Galaxy S6, Android Nexus 9:
+          "43.0":
+            Android Nexus 6:
+      "6.0":
+        Opera Mobile:
+          "42.0":
+            Android Nexus 6P, Android Nexus 9:
+      "7.0":
+        Opera Mobile:
+          "43.0":
+            Android Nexus 6P:

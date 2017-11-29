@@ -6,13 +6,14 @@
   "capabilities": {
     "BrowserStack": {
       "local": true,
-      "localIdentifier": "cbt-analyzer-browserstack",
+      "localIdentifier": "cbt-analyzer-browserstack-windows-phone",
       "screenshots": true,
-      "timeout": 120
+      "video": true,
+      "timeout": 60
     }
   },
   "parallel": {
-    "BrowserStack": 2
+    "BrowserStack": 5
   },
   "server": {
     "port": 8000,

@@ -1,0 +1,6 @@
+SauceLabs:
+  JS:
+    Linux:
+      None:
+        Firefox:
+          "4.0-45.0":

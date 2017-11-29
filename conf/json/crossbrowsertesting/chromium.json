@@ -1,0 +1,64 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-chromium",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Chromium",
+          "browserVersion": "14.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Vivid",
+          "browser": "Chromium",
+          "browserVersion": "43.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Vivid",
+          "browser": "Chromium",
+          "browserVersion": "47.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Vivid",
+          "browser": "Chromium",
+          "browserVersion": "48.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Chromium",
+          "browserVersion": "43.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Trusty",
+          "browser": "Chromium",
+          "browserVersion": "47.0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 2,
+  "limit": "4mb",
+  "capabilities": {
+    "SauceLabs": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-saucelabs-android-browser",
+      "screenshots": true,
+      "video": true,
+      "timeout": 30
+    }
+  },
+  "parallel": {
+    "SauceLabs": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "SauceLabs": {
+      "JS": [
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Amazon Kindle Fire HD 8.9 Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Amazon Kindle Fire HD 8.9 GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Google Nexus 7 HD Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Google Nexus 7 HD GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Google Nexus 7C Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Google Nexus 7C GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "LG Nexus 4 Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "LG Nexus 4 GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy Nexus Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy Nexus GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy S3 Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy S3 GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy S4 Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy S4 GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.1",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "5.1",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android GoogleAPI Emulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.1",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Android GoogleAPI Emulator"
+        }
+      ]
+    }
+  }
+}

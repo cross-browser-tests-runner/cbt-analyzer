@@ -1,0 +1,100 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "cbt-analyzer-crossbrowsertesting-opera-osx-sierra",
+      "screenshots": true,
+      "video": true,
+      "timeout": 40
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "38.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "39.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "40.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "41.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "42.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "43.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "44.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "45.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "46.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "47.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "48.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Opera",
+          "browserVersion": "49.0"
+        }
+      ]
+    }
+  }
+}

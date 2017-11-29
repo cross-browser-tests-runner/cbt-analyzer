@@ -1,0 +1,7 @@
+CrossBrowserTesting:
+  JS:
+    Android:
+      "5.0":
+        Samsung Browser:
+          "5.4":
+            Android Galaxy S6:

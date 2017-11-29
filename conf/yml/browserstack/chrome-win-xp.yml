@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    Windows:
+      XP:
+        Chrome:
+          "15.0-49.0":

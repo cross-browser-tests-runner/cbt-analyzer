@@ -1,0 +1,6 @@
+SauceLabs:
+  JS:
+    Linux:
+      None:
+        Chrome:
+          "26.0-48.0":
