@@ -1,0 +1,24 @@
+BrowserStack:
+  JS:
+    Android:
+      "4.4":
+        Google Nexus 5, Samsung Galaxy Tab 4: # DNS resolution failed
+          isPhysicalDevice: true
+      "5.0":
+        Samsung Galaxy S6, Motorola Moto X 2nd Gen: # DNS resolution failed
+          isPhysicalDevice: true
+      "5.1":
+        Google Nexus 9: # DNS resolution failed
+          isPhysicalDevice: true
+      "6.0":
+        Google Nexus 6, Motorola Moto X 2nd Gen, Samsung Galaxy Note 4, Samsung Galaxy S7: # DNS resolution failed
+          isPhysicalDevice: true
+      "7.0":
+        Samsung Galaxy S8, Samsung Galaxy S8 Plus: # DNS resolution failed
+          isPhysicalDevice: true
+      "7.1":
+        Google Pixel, Samsung Galaxy Note 8: # DNS resolution failed
+          isPhysicalDevice: true
+      "8.0":
+        Google Pixel: # executed tests, timed out
+          isPhysicalDevice: true

@@ -1,0 +1,7 @@
+BrowserStack:
+  JS:
+    OS X:
+      Yosemite:
+        Opera:
+          "15.0-50.0":
+          "12.12, 12.14, 12.15, 15.0-50.0": # time for an update window comes

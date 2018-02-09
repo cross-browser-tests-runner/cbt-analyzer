@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    Windows:
+      "8":
+        Chrome:
+          "22.0-64.0":

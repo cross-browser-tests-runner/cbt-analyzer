@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      Mavericks:
+        Firefox:
+          "3.6, 4.0-58.0":

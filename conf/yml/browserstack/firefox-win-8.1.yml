@@ -1,6 +1,0 @@
-BrowserStack:
-  JS:
-    Windows:
-      "8.1":
-        Firefox:
-          "16.0-57.0":

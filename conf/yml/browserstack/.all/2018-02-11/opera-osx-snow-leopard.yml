@@ -1,0 +1,8 @@
+BrowserStack:
+  JS:
+    OS X:
+      Snow Leopard:
+        Opera:
+          "11.1, 11.6": # blank page
+          "12.0, 12.12, 12.14, 12.15": # time for an update
+          "15.0-25.0":

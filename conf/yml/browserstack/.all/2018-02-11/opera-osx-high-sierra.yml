@@ -1,0 +1,7 @@
+BrowserStack:
+  JS:
+    OS X:
+      High Sierra:
+        Opera:
+          "12.12, 12.14, 12.15": # time for an update
+          "15.0-50.0":

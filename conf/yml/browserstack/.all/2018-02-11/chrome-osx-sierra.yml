@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      Sierra:
+        Chrome:
+          "27.0-64.0":

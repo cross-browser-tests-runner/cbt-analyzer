@@ -40,6 +40,13 @@
           "osVersion": "8.1",
           "browser": "IE Mobile",
           "browserVersion": null,
+          "device": "Nokia Lumia 925"
+        },
+        {
+          "os": "Windows Phone",
+          "osVersion": "8.1",
+          "browser": "IE Mobile",
+          "browserVersion": null,
           "device": "Nokia Lumia 930"
         }
       ]

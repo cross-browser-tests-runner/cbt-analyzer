@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      El Capitan:
+        Firefox:
+          "4.0-58.0":

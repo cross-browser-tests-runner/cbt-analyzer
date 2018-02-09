@@ -1,0 +1,8 @@
+BrowserStack:
+  JS:
+    OS X:
+      Mavericks:
+        Opera:
+          "11.1": # blank page
+          "11.6, 12.0, 12.12, 12.14, 12.15": # time for an update
+          "15.0-49.0":

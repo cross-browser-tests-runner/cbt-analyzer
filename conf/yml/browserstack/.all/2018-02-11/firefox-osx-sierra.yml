@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      Sierra:
+        Firefox:
+          "11.0-58.0":

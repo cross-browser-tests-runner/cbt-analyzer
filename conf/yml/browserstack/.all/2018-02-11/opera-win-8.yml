@@ -1,0 +1,7 @@
+BrowserStack:
+  JS:
+    Windows:
+      "8":
+        Opera:
+          "12.0, 12.10, 12.14, 12.15, 12.16, 15.0-34.0, 36.0-50.0":
+          "35.0": # browser app does not run

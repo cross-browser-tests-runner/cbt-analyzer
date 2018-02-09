@@ -1,0 +1,6 @@
+BrowserStack:
+  JS:
+    OS X:
+      Yosemite:
+        Chrome:
+          "16.0-64.0":
