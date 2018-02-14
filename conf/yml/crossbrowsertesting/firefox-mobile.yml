@@ -1,41 +1,43 @@
 CrossBrowserTesting:
   JS:
     Android:
-      "4.1":
+      "6.0":
         Firefox Mobile:
-          "47.0":
-            Android Galaxy S3:
-          "55.0":
-            Android Galaxy Tab 2:
-      "4.2":
-        Firefox Mobile:
-          "28.0":
-            Android Galaxy S4:
-          "53.0":
-            Android Nexus 7:
+          "57.0":
+            Android Nexus 9:
           "54.0":
-            Android Nexus 4:
-      "4.4":
-        Firefox Mobile:
-          "53.0":
-            Android Galaxy Note 3:
-          "55.0":
-            Android Galaxy S5:
-          "56.0":
-            Android Galaxy Tab S, Android Nexus 5:
+            Android Nexus 6P:
       "5.0":
         Firefox Mobile:
           "53.0":
             Android Nexus 9:
           "55.0":
             Android Nexus 6:
-          "54.0":
+          "57.0":
             Android Galaxy S6:
-      "6.0":
+      "4.2":
         Firefox Mobile:
+          "53.0":
+            Android Nexus 7:
           "54.0":
-            Android Nexus 6P, Android Nexus 9:
+            Android Nexus 4:
+          "28.0":
+            Android Galaxy S4:
       "7.0":
         Firefox Mobile:
           "57.0":
-            Android Nexus 6P:
+            Android Galaxy S7, Android Nexus 6P:
+      "4.4":
+        Firefox Mobile:
+          "56.0":
+            Android Galaxy Tab S, Android Nexus 5:
+          "53.0":
+            Android Galaxy Note 3:
+          "55.0":
+            Android Galaxy S5:
+      "4.1":
+        Firefox Mobile:
+          "47.0":
+            Android Galaxy S3:
+          "55.0":
+            Android Galaxy Tab 2:

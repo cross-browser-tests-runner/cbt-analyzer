@@ -4,19 +4,92 @@ node_js:
   - "8"
 
 env:
-  - SET=android SYS=browserstack
-  - SET=chrome SYS=browserstack
-  - SET=edge SYS=browserstack
-  - SET=firefox SYS=browserstack
-  - SET=internet-explorer SYS=browserstack
-  - SET=ios SYS=browserstack
-  - SET=opera SYS=browserstack
-  - SET=safari SYS=browserstack
-  - SET=windows-phone SYS=browserstack
-  - SET=yandex SYS=browserstack
+  - SET=android-browser SYS=crossbrowsertesting
+  - SET=aol-explorer SYS=crossbrowsertesting
+  - SET=camino SYS=crossbrowsertesting
+  - SET=chrome-for-ios SYS=crossbrowsertesting
+  - SET=chrome-mobile SYS=crossbrowsertesting
+  - SET=chrome-osx-el-capitan SYS=crossbrowsertesting
+  - SET=chrome-osx-lion-ubuntu SYS=crossbrowsertesting
+  - SET=chrome-osx-mavericks SYS=crossbrowsertesting
+  - SET=chrome-osx-mountain-lion SYS=crossbrowsertesting
+  - SET=chrome-win-10 SYS=crossbrowsertesting
+  - SET=chrome-win-7-64-bit SYS=crossbrowsertesting
+  - SET=chrome-win-7-beta SYS=crossbrowsertesting
+  - SET=chrome-win-8-preview SYS=crossbrowsertesting
+  - SET=chrome-win-8.1 SYS=crossbrowsertesting
+  - SET=chrome-win-vista-home SYS=crossbrowsertesting
+  - SET=chrome-win-xp-sp2 SYS=crossbrowsertesting
+  - SET=chrome-win-xp-sp3 SYS=crossbrowsertesting
+  - SET=chrome-x64-osx SYS=crossbrowsertesting
+  - SET=chrome-x64-win-ubuntu SYS=crossbrowsertesting
+  - SET=chromium SYS=crossbrowsertesting
+  - SET=dolphin-for-ios SYS=crossbrowsertesting
+  - SET=dolphin-mobile SYS=crossbrowsertesting
+  - SET=edge SYS=crossbrowsertesting
+  - SET=firefox-mobile SYS=crossbrowsertesting
+  - SET=firefox-osx-el-capitan SYS=crossbrowsertesting
+  - SET=firefox-osx-high-sierra SYS=crossbrowsertesting
+  - SET=firefox-osx-lion SYS=crossbrowsertesting
+  - SET=firefox-osx-mavericks SYS=crossbrowsertesting
+  - SET=firefox-osx-mountain-lion SYS=crossbrowsertesting
+  - SET=firefox-osx-sierra SYS=crossbrowsertesting
+  - SET=firefox-ubuntu-oneiric SYS=crossbrowsertesting
+  - SET=firefox-ubuntu-trusty SYS=crossbrowsertesting
+  - SET=firefox-ubuntu-vivid SYS=crossbrowsertesting
+  - SET=firefox-win-10 SYS=crossbrowsertesting
+  - SET=firefox-win-7-64-bit SYS=crossbrowsertesting
+  - SET=firefox-win-7-beta SYS=crossbrowsertesting
+  - SET=firefox-win-8-preview SYS=crossbrowsertesting
+  - SET=firefox-win-8.1 SYS=crossbrowsertesting
+  - SET=firefox-win-vista-home SYS=crossbrowsertesting
+  - SET=firefox-win-xp-sp2 SYS=crossbrowsertesting
+  - SET=firefox-win-xp-sp3 SYS=crossbrowsertesting
+  - SET=firefox-x64 SYS=crossbrowsertesting
+  - SET=internet-explorer-x64 SYS=crossbrowsertesting
+  - SET=internet-explorer SYS=crossbrowsertesting
+  - SET=ios-default SYS=crossbrowsertesting
+  - SET=maxthon-mobile-hd SYS=crossbrowsertesting
+  - SET=maxthon-mobile SYS=crossbrowsertesting
+  - SET=mobile-safari SYS=crossbrowsertesting
+  - SET=mozilla SYS=crossbrowsertesting
+  - SET=netscape SYS=crossbrowsertesting
+  - SET=opera-mini-for-ios SYS=crossbrowsertesting
+  - SET=opera-mini SYS=crossbrowsertesting
+  - SET=opera-mobile SYS=crossbrowsertesting
+  - SET=opera-osx-el-capitan SYS=crossbrowsertesting
+  - SET=opera-osx-high-sierra SYS=crossbrowsertesting
+  - SET=opera-osx-lion-oneiric SYS=crossbrowsertesting
+  - SET=opera-osx-mavericks SYS=crossbrowsertesting
+  - SET=opera-osx-mountain-lion SYS=crossbrowsertesting
+  - SET=opera-osx-sierra SYS=crossbrowsertesting
+  - SET=opera-win-10 SYS=crossbrowsertesting
+  - SET=opera-win-7-64-bit SYS=crossbrowsertesting
+  - SET=opera-win-7-beta SYS=crossbrowsertesting
+  - SET=opera-win-8-preview SYS=crossbrowsertesting
+  - SET=opera-win-8.1 SYS=crossbrowsertesting
+  - SET=opera-win-vista-home SYS=crossbrowsertesting
+  - SET=opera-win-xp-sp2 SYS=crossbrowsertesting
+  - SET=opera-win-xp-sp3 SYS=crossbrowsertesting
+  - SET=safari SYS=crossbrowsertesting
+  - SET=samsung-browser SYS=crossbrowsertesting
+  - SET=sleipnir-mobile SYS=crossbrowsertesting
+  - SET=uc-browser SYS=crossbrowsertesting
+  - SET=windows-phone SYS=crossbrowsertesting
+#  - SET=android SYS=browserstack
+#  - SET=chrome SYS=browserstack
+#  - SET=edge SYS=browserstack
+#  - SET=firefox SYS=browserstack
+#  - SET=internet-explorer SYS=browserstack
+#  - SET=ios SYS=browserstack
+#  - SET=opera SYS=browserstack
+#  - SET=safari SYS=browserstack
+#  - SET=windows-phone SYS=browserstack
+#  - SET=yandex SYS=browserstack
 
 before_script:
-  - ./node_modules/.bin/cbtr-browserstack-update
+  - ./node_modules/.bin/cbtr-crossbrowsertesting-update
+#  - ./node_modules/.bin/cbtr-browserstack-update
 
 cache:
   directories:

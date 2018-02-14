@@ -3,4 +3,4 @@ CrossBrowserTesting:
     Windows:
       "10":
         Firefox:
-          "38.0-57.0":
+          "38.0-58.0":

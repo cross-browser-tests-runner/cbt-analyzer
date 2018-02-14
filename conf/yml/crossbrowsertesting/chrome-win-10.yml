@@ -3,4 +3,4 @@ CrossBrowserTesting:
     Windows:
       "10":
         Chrome:
-          "43.0-62.0":
+          "43.0-64.0":

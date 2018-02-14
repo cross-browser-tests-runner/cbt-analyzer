@@ -9,7 +9,7 @@
       "localIdentifier": "firefox-win-8-preview",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -357,6 +357,12 @@
           "osVersion": "8 Preview",
           "browser": "Firefox",
           "browserVersion": "57.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "8 Preview",
+          "browser": "Firefox",
+          "browserVersion": "58.0"
         }
       ]
     }

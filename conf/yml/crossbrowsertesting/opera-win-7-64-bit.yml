@@ -1,0 +1,6 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      "7 64-bit":
+        Opera:
+          "11.11, 11.50, 11.60, 12.00, 12.12, 15.0-50.0":

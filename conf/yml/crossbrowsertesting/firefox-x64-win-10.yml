@@ -1,6 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    Windows:
-      "10":
-        Firefox x64:
-          "42.0-57.0":

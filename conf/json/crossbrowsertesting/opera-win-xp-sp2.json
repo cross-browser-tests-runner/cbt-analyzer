@@ -9,7 +9,7 @@
       "localIdentifier": "opera-win-xp-sp2",
       "screenshots": true,
       "video": true,
-      "timeout": 40
+      "timeout": 60
     }
   },
   "parallel": {

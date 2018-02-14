@@ -9,7 +9,7 @@
       "localIdentifier": "chrome-for-ios",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {

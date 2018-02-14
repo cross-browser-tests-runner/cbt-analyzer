@@ -9,7 +9,7 @@
       "localIdentifier": "opera-win-10",
       "screenshots": true,
       "video": true,
-      "timeout": 40
+      "timeout": 60
     }
   },
   "parallel": {
@@ -147,6 +147,12 @@
           "osVersion": "10",
           "browser": "Opera",
           "browserVersion": "49.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "10",
+          "browser": "Opera",
+          "browserVersion": "50.0"
         }
       ]
     }

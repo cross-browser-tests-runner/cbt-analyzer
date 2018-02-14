@@ -9,7 +9,7 @@
       "localIdentifier": "samsung-browser",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -26,8 +26,15 @@
           "os": "Android",
           "osVersion": "5.0",
           "browser": "Samsung Browser",
-          "browserVersion": "5.4",
+          "browserVersion": "6.2",
           "device": "Android Galaxy S6"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Samsung Browser",
+          "browserVersion": "6.2",
+          "device": "Android Galaxy S7"
         }
       ]
     }

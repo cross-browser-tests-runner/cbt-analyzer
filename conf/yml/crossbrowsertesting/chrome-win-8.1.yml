@@ -3,4 +3,4 @@ CrossBrowserTesting:
     Windows:
       "8.1":
         Chrome:
-          "30.0-62.0":
+          "30.0-64.0":

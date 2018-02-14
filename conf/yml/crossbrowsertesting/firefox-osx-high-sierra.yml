@@ -3,4 +3,4 @@ CrossBrowserTesting:
     OS X:
       High Sierra:
         Firefox:
-          "56.0-57.0":
+          "56.0-58.0":

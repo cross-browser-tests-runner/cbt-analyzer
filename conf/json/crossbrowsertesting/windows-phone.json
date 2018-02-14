@@ -24,13 +24,6 @@
       "JS": [
         {
           "os": "Windows Phone",
-          "osVersion": "8",
-          "browser": "IE Mobile",
-          "browserVersion": "10.0",
-          "device": "Win Phone 8 Simulator"
-        },
-        {
-          "os": "Windows Phone",
           "osVersion": "8.1",
           "browser": "IE Mobile",
           "browserVersion": "11.0",

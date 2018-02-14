@@ -9,7 +9,7 @@
       "localIdentifier": "internet-explorer-x64",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {

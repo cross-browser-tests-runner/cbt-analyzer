@@ -9,7 +9,7 @@
       "localIdentifier": "edge",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -22,6 +22,13 @@
   "browsers": {
     "CrossBrowserTesting": {
       "JS": [
+        {
+          "os": "Android",
+          "osVersion": "6.0",
+          "browser": "Edge",
+          "browserVersion": "1.0",
+          "device": "Android Nexus 9"
+        },
         {
           "os": "Windows",
           "osVersion": "10",

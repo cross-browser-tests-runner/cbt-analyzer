@@ -9,7 +9,7 @@
       "localIdentifier": "chrome-win-vista-home",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {

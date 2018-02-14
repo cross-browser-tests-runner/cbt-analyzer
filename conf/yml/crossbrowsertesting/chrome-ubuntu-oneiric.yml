@@ -1,6 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    Ubuntu:
-      Oneiric:
-        Chrome:
-          "16.0":

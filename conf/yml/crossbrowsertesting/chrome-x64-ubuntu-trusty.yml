@@ -1,6 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    Ubuntu:
-      Trusty:
-        Chrome x64:
-          "43.0, 47.0-48.0":

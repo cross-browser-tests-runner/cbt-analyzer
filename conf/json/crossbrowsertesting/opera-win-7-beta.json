@@ -9,7 +9,7 @@
       "localIdentifier": "opera-win-7-beta",
       "screenshots": true,
       "video": true,
-      "timeout": 40
+      "timeout": 60
     }
   },
   "parallel": {

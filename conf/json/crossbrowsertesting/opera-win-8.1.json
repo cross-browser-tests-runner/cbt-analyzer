@@ -9,7 +9,7 @@
       "localIdentifier": "opera-win-8-1",
       "screenshots": true,
       "video": true,
-      "timeout": 40
+      "timeout": 60
     }
   },
   "parallel": {
@@ -231,6 +231,12 @@
           "osVersion": "8.1",
           "browser": "Opera",
           "browserVersion": "49.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "8.1",
+          "browser": "Opera",
+          "browserVersion": "50.0"
         }
       ]
     }

@@ -1,19 +1,19 @@
 CrossBrowserTesting:
   JS:
     Android:
-      "4.1":
-        Sleipnir Mobile:
-          "3.5":
-            Android Galaxy S3, Android Galaxy Tab 2:
       "4.2":
         Sleipnir Mobile:
-          "2.10":
-            Android Galaxy S4:
-          "3.4":
-            Android Nexus 4:
           "3.5":
             Android Nexus 7:
+          "3.4":
+            Android Nexus 4:
+          "2.10":
+            Android Galaxy S4:
       "4.4":
         Sleipnir Mobile:
           "3.5":
             Android Galaxy Note 3, Android Galaxy S5, Android Nexus 5:
+      "4.1":
+        Sleipnir Mobile:
+          "3.5":
+            Android Galaxy S3, Android Galaxy Tab 2:

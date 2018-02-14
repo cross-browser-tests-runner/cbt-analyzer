@@ -1,6 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    Ubuntu:
-      Vivid:
-        Chrome x64:
-          "43.0-44.0, 47.0-48.0":

@@ -9,7 +9,7 @@
       "localIdentifier": "dolphin-mobile",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -23,102 +23,18 @@
     "CrossBrowserTesting": {
       "JS": [
         {
-          "os": "iOS",
+          "os": "Android",
           "osVersion": "6.0",
           "browser": "Dolphin Mobile",
-          "browserVersion": "7.5",
-          "device": "iPad 4"
-        },
-        {
-          "os": "iOS",
-          "osVersion": "7.0",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "7.5",
-          "device": "iPad Mini Retina"
-        },
-        {
-          "os": "iOS",
-          "osVersion": "8.1",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "6.5",
-          "device": "iPad Air 2"
-        },
-        {
-          "os": "iOS",
-          "osVersion": "8.1",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "8.0",
-          "device": "iPhone 6"
-        },
-        {
-          "os": "iOS",
-          "osVersion": "8.3",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "8.0",
-          "device": "iPhone 6 Plus"
+          "browserVersion": "12.0",
+          "device": "Android Nexus 6P"
         },
         {
           "os": "Android",
-          "osVersion": "4.1",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "11.5",
-          "device": "Android Galaxy S3"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.1",
+          "osVersion": "6.0",
           "browser": "Dolphin Mobile",
           "browserVersion": "12.0",
-          "device": "Android Galaxy Tab 2"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "9.4",
-          "device": "Android Galaxy S4"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "11.5",
-          "device": "Android Nexus 7"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "12.0",
-          "device": "Android Nexus 4"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "11.5",
-          "device": "Android Galaxy Note 3"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "12.0",
-          "device": "Android Galaxy S5"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "12.0",
-          "device": "Android Galaxy Tab S"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Dolphin Mobile",
-          "browserVersion": "12.0",
-          "device": "Android Nexus 5"
+          "device": "Android Nexus 9"
         },
         {
           "os": "Android",
@@ -143,17 +59,31 @@
         },
         {
           "os": "Android",
-          "osVersion": "6.0",
+          "osVersion": "4.2",
           "browser": "Dolphin Mobile",
           "browserVersion": "11.5",
-          "device": "Android Nexus 9"
+          "device": "Android Nexus 7"
         },
         {
           "os": "Android",
-          "osVersion": "6.0",
+          "osVersion": "4.2",
           "browser": "Dolphin Mobile",
           "browserVersion": "12.0",
-          "device": "Android Nexus 6P"
+          "device": "Android Nexus 4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "9.4",
+          "device": "Android Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "12.0",
+          "device": "Android Galaxy S7"
         },
         {
           "os": "Android",
@@ -161,6 +91,83 @@
           "browser": "Dolphin Mobile",
           "browserVersion": "12.0",
           "device": "Android Nexus 6P"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "12.0",
+          "device": "Android Galaxy S5"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "12.0",
+          "device": "Android Galaxy Tab S"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "12.0",
+          "device": "Android Nexus 5"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "11.5",
+          "device": "Android Galaxy Note 3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "11.5",
+          "device": "Android Galaxy S3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "12.0",
+          "device": "Android Galaxy Tab 2"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.1",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "6.5",
+          "device": "iPad Air 2"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.1",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "8.0",
+          "device": "iPhone 6"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "7.0",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "7.5",
+          "device": "iPad Mini Retina"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "6.0",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "7.5",
+          "device": "iPad 4"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.3",
+          "browser": "Dolphin Mobile",
+          "browserVersion": "8.0",
+          "device": "iPhone 6 Plus"
         }
       ]
     }

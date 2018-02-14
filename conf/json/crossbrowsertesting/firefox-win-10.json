@@ -9,7 +9,7 @@
       "localIdentifier": "firefox-win-10",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -141,6 +141,12 @@
           "osVersion": "10",
           "browser": "Firefox",
           "browserVersion": "57.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "10",
+          "browser": "Firefox",
+          "browserVersion": "58.0"
         }
       ]
     }

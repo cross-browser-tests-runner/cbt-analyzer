@@ -9,7 +9,7 @@
       "localIdentifier": "firefox-osx-el-capitan",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -351,6 +351,12 @@
           "osVersion": "El Capitan",
           "browser": "Firefox",
           "browserVersion": "57.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Firefox",
+          "browserVersion": "58.0"
         }
       ]
     }

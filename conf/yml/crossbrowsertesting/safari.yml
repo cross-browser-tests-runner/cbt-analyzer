@@ -1,40 +1,37 @@
 CrossBrowserTesting:
   JS:
     OS X:
-      Lion:
-        Safari:
-          "6.0":
-      Mountain Lion:
-        Safari:
-          "6.2":
-      Mavericks:
-        Safari:
-          "7.0":
-      Yosemite:
-        Safari:
-          "8.0":
-      El Capitan:
-        Safari:
-          "9.0":
-      Sierra:
-        Safari:
-          "10.0":
       High Sierra:
         Safari:
           "11.0":
+      Sierra:
+        Safari:
+          "10.0":
+      El Capitan:
+        Safari:
+          "9.0":
+      Mavericks:
+        Safari:
+          "7.0":
+      Mountain Lion:
+        Safari:
+          "6.2":
+      Lion:
+        Safari:
+          "6.0":
     Windows:
-      Vista Home:
-        Safari:
-          "3.1.2, 4.0-5.0":
-      XP Service Pack 2:
-        Safari:
-          "3.1.2":
-      XP Service Pack 3:
-        Safari:
-          "5.0":
-      "7 Beta":
-        Safari:
-          "5.0, 5.1":
       "8 Preview":
         Safari:
           "5.1":
+      "7 Beta":
+        Safari:
+          "5.0, 5.1":
+      Vista Home:
+        Safari:
+          "3.1.2, 4.0-5.0":
+      XP Service Pack 3:
+        Safari:
+          "5.0":
+      XP Service Pack 2:
+        Safari:
+          "3.1.2":

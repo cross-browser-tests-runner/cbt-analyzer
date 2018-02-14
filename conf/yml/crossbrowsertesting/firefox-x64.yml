@@ -1,0 +1,15 @@
+CrossBrowserTesting:
+  JS:
+    Windows:
+      "10":
+        Firefox x64:
+          "42.0-58.0":
+      "8.1":
+        Firefox x64:
+          "42.0-58.0":
+      "8 Preview":
+        Firefox x64:
+          "42.0-58.0":
+      "7 64-bit":
+        Firefox x64:
+          "42.0-58.0":

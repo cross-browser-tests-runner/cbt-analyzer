@@ -1,58 +1,56 @@
 CrossBrowserTesting:
   JS:
-    iOS:
+    Android:
       "6.0":
         Dolphin Mobile:
-          "7.5":
-            iPad 4:
-      "7.0":
-        Dolphin Mobile:
-          "7.5":
-            iPad Mini Retina:
-      "8.1":
-        Dolphin Mobile:
-          "6.5":
-            iPad Air 2:
-          "8.0":
-            iPhone 6:
-      "8.3":
-        Dolphin Mobile:
-          "8.0":
-            iPhone 6 Plus:
-    Android:
-      "4.1":
-        Dolphin Mobile:
-          "11.5":
-            Android Galaxy S3:
           "12.0":
-            Android Galaxy Tab 2:
-      "4.2":
-        Dolphin Mobile:
-          "9.4":
-            Android Galaxy S4:
-          "11.5":
-            Android Nexus 7:
-          "12.0":
-            Android Nexus 4:
-      "4.4":
-        Dolphin Mobile:
-          "11.5":
-            Android Galaxy Note 3:
-          "12.0":
-            Android Galaxy S5, Android Galaxy Tab S, Android Nexus 5:
+            Android Nexus 6P, Android Nexus 9:
       "5.0":
         Dolphin Mobile:
           "11.5":
             Android Nexus 9:
           "12.0":
             Android Galaxy S6, Android Nexus 6:
-      "6.0":
+      "4.2":
         Dolphin Mobile:
           "11.5":
-            Android Nexus 9:
+            Android Nexus 7:
           "12.0":
-            Android Nexus 6P:
+            Android Nexus 4:
+          "9.4":
+            Android Galaxy S4:
       "7.0":
         Dolphin Mobile:
           "12.0":
-            Android Nexus 6P:
+            Android Galaxy S7, Android Nexus 6P:
+      "4.4":
+        Dolphin Mobile:
+          "12.0":
+            Android Galaxy S5, Android Galaxy Tab S, Android Nexus 5:
+          "11.5":
+            Android Galaxy Note 3:
+      "4.1":
+        Dolphin Mobile:
+          "11.5":
+            Android Galaxy S3:
+          "12.0":
+            Android Galaxy Tab 2:
+    iOS:
+      "8.1":
+        Dolphin Mobile:
+          "6.5":
+            iPad Air 2:
+          "8.0":
+            iPhone 6:
+      "7.0":
+        Dolphin Mobile:
+          "7.5":
+            iPad Mini Retina:
+      "6.0":
+        Dolphin Mobile:
+          "7.5":
+            iPad 4:
+      "8.3":
+        Dolphin Mobile:
+          "8.0":
+            iPhone 6 Plus:

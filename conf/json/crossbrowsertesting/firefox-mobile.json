@@ -9,7 +9,7 @@
       "localIdentifier": "firefox-mobile",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -24,66 +24,17 @@
       "JS": [
         {
           "os": "Android",
-          "osVersion": "4.1",
+          "osVersion": "6.0",
           "browser": "Firefox Mobile",
-          "browserVersion": "47.0",
-          "device": "Android Galaxy S3"
+          "browserVersion": "57.0",
+          "device": "Android Nexus 9"
         },
         {
           "os": "Android",
-          "osVersion": "4.1",
-          "browser": "Firefox Mobile",
-          "browserVersion": "55.0",
-          "device": "Android Galaxy Tab 2"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
-          "browser": "Firefox Mobile",
-          "browserVersion": "28.0",
-          "device": "Android Galaxy S4"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
-          "browser": "Firefox Mobile",
-          "browserVersion": "53.0",
-          "device": "Android Nexus 7"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
+          "osVersion": "6.0",
           "browser": "Firefox Mobile",
           "browserVersion": "54.0",
-          "device": "Android Nexus 4"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Firefox Mobile",
-          "browserVersion": "53.0",
-          "device": "Android Galaxy Note 3"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Firefox Mobile",
-          "browserVersion": "55.0",
-          "device": "Android Galaxy S5"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Firefox Mobile",
-          "browserVersion": "56.0",
-          "device": "Android Galaxy Tab S"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Firefox Mobile",
-          "browserVersion": "56.0",
-          "device": "Android Nexus 5"
+          "device": "Android Nexus 6P"
         },
         {
           "os": "Android",
@@ -103,22 +54,36 @@
           "os": "Android",
           "osVersion": "5.0",
           "browser": "Firefox Mobile",
-          "browserVersion": "54.0",
+          "browserVersion": "57.0",
           "device": "Android Galaxy S6"
         },
         {
           "os": "Android",
-          "osVersion": "6.0",
+          "osVersion": "4.2",
           "browser": "Firefox Mobile",
-          "browserVersion": "54.0",
-          "device": "Android Nexus 6P"
+          "browserVersion": "53.0",
+          "device": "Android Nexus 7"
         },
         {
           "os": "Android",
-          "osVersion": "6.0",
+          "osVersion": "4.2",
           "browser": "Firefox Mobile",
           "browserVersion": "54.0",
-          "device": "Android Nexus 9"
+          "device": "Android Nexus 4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Firefox Mobile",
+          "browserVersion": "28.0",
+          "device": "Android Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Firefox Mobile",
+          "browserVersion": "57.0",
+          "device": "Android Galaxy S7"
         },
         {
           "os": "Android",
@@ -126,6 +91,48 @@
           "browser": "Firefox Mobile",
           "browserVersion": "57.0",
           "device": "Android Nexus 6P"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Firefox Mobile",
+          "browserVersion": "56.0",
+          "device": "Android Galaxy Tab S"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Firefox Mobile",
+          "browserVersion": "56.0",
+          "device": "Android Nexus 5"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Firefox Mobile",
+          "browserVersion": "53.0",
+          "device": "Android Galaxy Note 3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Firefox Mobile",
+          "browserVersion": "55.0",
+          "device": "Android Galaxy S5"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Firefox Mobile",
+          "browserVersion": "47.0",
+          "device": "Android Galaxy S3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Firefox Mobile",
+          "browserVersion": "55.0",
+          "device": "Android Galaxy Tab 2"
         }
       ]
     }

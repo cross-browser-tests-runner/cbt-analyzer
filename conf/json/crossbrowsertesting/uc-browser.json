@@ -9,7 +9,7 @@
       "localIdentifier": "uc-browser",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -24,17 +24,10 @@
       "JS": [
         {
           "os": "Android",
-          "osVersion": "4.2",
+          "osVersion": "6.0",
           "browser": "UC Browser",
           "browserVersion": "11.3",
-          "device": "Android Nexus 4"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "UC Browser",
-          "browserVersion": "11.4",
-          "device": "Android Galaxy Tab S"
+          "device": "Android Nexus 6P"
         },
         {
           "os": "Android",
@@ -59,17 +52,17 @@
         },
         {
           "os": "Android",
-          "osVersion": "6.0",
+          "osVersion": "4.2",
           "browser": "UC Browser",
           "browserVersion": "11.3",
-          "device": "Android Nexus 6P"
+          "device": "Android Nexus 4"
         },
         {
           "os": "Android",
-          "osVersion": "6.0",
+          "osVersion": "4.4",
           "browser": "UC Browser",
-          "browserVersion": "11.3",
-          "device": "Android Nexus 9"
+          "browserVersion": "11.4",
+          "device": "Android Galaxy Tab S"
         }
       ]
     }

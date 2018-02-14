@@ -9,7 +9,7 @@
       "localIdentifier": "opera-osx-el-capitan",
       "screenshots": true,
       "video": true,
-      "timeout": 40
+      "timeout": 60
     }
   },
   "parallel": {
@@ -237,6 +237,12 @@
           "osVersion": "El Capitan",
           "browser": "Opera",
           "browserVersion": "49.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Opera",
+          "browserVersion": "50.0"
         }
       ]
     }

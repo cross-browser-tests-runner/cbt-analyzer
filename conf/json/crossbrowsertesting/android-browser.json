@@ -9,7 +9,7 @@
       "localIdentifier": "android-browser",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -22,41 +22,6 @@
   "browsers": {
     "CrossBrowserTesting": {
       "JS": [
-        {
-          "os": "Android",
-          "osVersion": "2.2",
-          "browser": "Android Browser",
-          "browserVersion": "2.2",
-          "device": "Android 2.2 Simulator"
-        },
-        {
-          "os": "Android",
-          "osVersion": "2.3",
-          "browser": "Android Browser",
-          "browserVersion": "2.3",
-          "device": "Android 2.3 Simulator"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.0",
-          "browser": "Android Browser",
-          "browserVersion": "4.0",
-          "device": "Android 4.0 Simulator"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.1",
-          "browser": "Android Browser",
-          "browserVersion": "4.1",
-          "device": "Android Galaxy S3"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.1",
-          "browser": "Android Browser",
-          "browserVersion": "4.1",
-          "device": "Android Galaxy Tab 2"
-        },
         {
           "os": "Android",
           "osVersion": "4.2",
@@ -84,6 +49,34 @@
           "browser": "Android Browser",
           "browserVersion": "4.4",
           "device": "Android Galaxy Tab S"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Android Browser",
+          "browserVersion": "4.1",
+          "device": "Android Galaxy S3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Android Browser",
+          "browserVersion": "4.1",
+          "device": "Android Galaxy Tab 2"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Android Browser",
+          "browserVersion": "4.0",
+          "device": "Android 4.0 Simulator"
+        },
+        {
+          "os": "Android",
+          "osVersion": "2.2",
+          "browser": "Android Browser",
+          "browserVersion": "2.2",
+          "device": "Android 2.2 Simulator"
         }
       ]
     }

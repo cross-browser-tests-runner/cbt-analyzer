@@ -9,7 +9,7 @@
       "localIdentifier": "opera-win-vista-home",
       "screenshots": true,
       "video": true,
-      "timeout": 40
+      "timeout": 60
     }
   },
   "parallel": {

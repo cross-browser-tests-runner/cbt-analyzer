@@ -1,27 +1,27 @@
 CrossBrowserTesting:
   JS:
     Windows:
-      XP Service Pack 2:
-        Internet Explorer:
-          "6.0-7.0":
-      XP Service Pack 3:
-        Internet Explorer:
-          "8.0":
-      Vista Home:
-        Internet Explorer:
-          "7.0-9.0":
-      "7 Beta":
-        Internet Explorer:
-          "8.0-9.0":
-      "7 64-bit":
-        Internet Explorer:
-          "9.0-11.0":
-      "8 Preview":
-        Internet Explorer:
-          "10.0":
-      "8.1":
-        Internet Explorer:
-          "11.0":
       "10":
         Internet Explorer:
           "11.0":
+      "8.1":
+        Internet Explorer:
+          "11.0":
+      "8 Preview":
+        Internet Explorer:
+          "10.0":
+      "7 64-bit":
+        Internet Explorer:
+          "9.0-11.0":
+      "7 Beta":
+        Internet Explorer:
+          "8.0-9.0":
+      Vista Home:
+        Internet Explorer:
+          "7.0-9.0":
+      XP Service Pack 3:
+        Internet Explorer:
+          "8.0":
+      XP Service Pack 2:
+        Internet Explorer:
+          "6.0-7.0":

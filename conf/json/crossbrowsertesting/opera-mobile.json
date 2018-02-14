@@ -9,7 +9,7 @@
       "localIdentifier": "opera-mobile",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -24,101 +24,17 @@
       "JS": [
         {
           "os": "Android",
-          "osVersion": "2.3",
+          "osVersion": "6.0",
           "browser": "Opera Mobile",
-          "browserVersion": "11.50",
-          "device": "Android 2.3 Simulator"
+          "browserVersion": "44.0",
+          "device": "Android Nexus 9"
         },
         {
           "os": "Android",
-          "osVersion": "4.0",
-          "browser": "Opera Mobile",
-          "browserVersion": "11.50",
-          "device": "Android 4.0 Simulator"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.1",
-          "browser": "Opera Mobile",
-          "browserVersion": "12.1",
-          "device": "Android Galaxy Tab 2"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.1",
-          "browser": "Opera Mobile",
-          "browserVersion": "37.0",
-          "device": "Android Galaxy S3"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.1",
+          "osVersion": "6.0",
           "browser": "Opera Mobile",
           "browserVersion": "42.0",
-          "device": "Android Galaxy Tab 2"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
-          "browser": "Opera Mobile",
-          "browserVersion": "12.1",
-          "device": "Android Galaxy S4"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
-          "browser": "Opera Mobile",
-          "browserVersion": "16.0",
-          "device": "Android Galaxy S4"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
-          "browser": "Opera Mobile",
-          "browserVersion": "42.0",
-          "device": "Android Nexus 4"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.2",
-          "browser": "Opera Mobile",
-          "browserVersion": "42.0",
-          "device": "Android Nexus 7"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Opera Mobile",
-          "browserVersion": "12.1",
-          "device": "Android Nexus 5"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Opera Mobile",
-          "browserVersion": "42.0",
-          "device": "Android Galaxy Note 3"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Opera Mobile",
-          "browserVersion": "42.0",
-          "device": "Android Galaxy S5"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Opera Mobile",
-          "browserVersion": "43.0",
-          "device": "Android Galaxy Tab S"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.4",
-          "browser": "Opera Mobile",
-          "browserVersion": "43.0",
-          "device": "Android Nexus 5"
+          "device": "Android Nexus 6P"
         },
         {
           "os": "Android",
@@ -143,17 +59,31 @@
         },
         {
           "os": "Android",
-          "osVersion": "6.0",
+          "osVersion": "4.2",
           "browser": "Opera Mobile",
           "browserVersion": "42.0",
-          "device": "Android Nexus 6P"
+          "device": "Android Nexus 4"
         },
         {
           "os": "Android",
-          "osVersion": "6.0",
+          "osVersion": "4.2",
           "browser": "Opera Mobile",
           "browserVersion": "42.0",
-          "device": "Android Nexus 9"
+          "device": "Android Nexus 7"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Opera Mobile",
+          "browserVersion": "12.1",
+          "device": "Android Galaxy S4"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Opera Mobile",
+          "browserVersion": "16.0",
+          "device": "Android Galaxy S4"
         },
         {
           "os": "Android",
@@ -161,6 +91,76 @@
           "browser": "Opera Mobile",
           "browserVersion": "43.0",
           "device": "Android Nexus 6P"
+        },
+        {
+          "os": "Android",
+          "osVersion": "7.0",
+          "browser": "Opera Mobile",
+          "browserVersion": "44.0",
+          "device": "Android Galaxy S7"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Opera Mobile",
+          "browserVersion": "12.1",
+          "device": "Android Nexus 5"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Opera Mobile",
+          "browserVersion": "43.0",
+          "device": "Android Galaxy Tab S"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Opera Mobile",
+          "browserVersion": "43.0",
+          "device": "Android Nexus 5"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Opera Mobile",
+          "browserVersion": "42.0",
+          "device": "Android Galaxy Note 3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.4",
+          "browser": "Opera Mobile",
+          "browserVersion": "42.0",
+          "device": "Android Galaxy S5"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Opera Mobile",
+          "browserVersion": "37.0",
+          "device": "Android Galaxy S3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Opera Mobile",
+          "browserVersion": "12.1",
+          "device": "Android Galaxy Tab 2"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Opera Mobile",
+          "browserVersion": "42.0",
+          "device": "Android Galaxy Tab 2"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Opera Mobile",
+          "browserVersion": "11.50",
+          "device": "Android 4.0 Simulator"
         }
       ]
     }

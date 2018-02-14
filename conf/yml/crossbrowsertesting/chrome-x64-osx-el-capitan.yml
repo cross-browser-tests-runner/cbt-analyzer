@@ -1,6 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    OS X:
-      El Capitan:
-        Chrome x64:
-          "39.0-62.0":

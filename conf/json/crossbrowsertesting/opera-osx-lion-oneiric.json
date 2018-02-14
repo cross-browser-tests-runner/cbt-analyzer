@@ -1,0 +1,148 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 3,
+  "limit": "4mb",
+  "capabilities": {
+    "CrossBrowserTesting": {
+      "local": true,
+      "localIdentifier": "opera-osx-lion-oneiric",
+      "screenshots": true,
+      "video": true,
+      "timeout": 60
+    }
+  },
+  "parallel": {
+    "CrossBrowserTesting": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.cross-browser-tests-runner.org"
+  },
+  "browsers": {
+    "CrossBrowserTesting": {
+      "JS": [
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "11.11"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "11.50"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "11.60"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "12.00"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "12.12"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "12.14"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "17.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "19.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "20.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "21.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "24.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "25.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "26.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "27.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "28.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "30.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "33.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "34.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Opera",
+          "browserVersion": "35.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Opera",
+          "browserVersion": "11.52"
+        }
+      ]
+    }
+  }
+}

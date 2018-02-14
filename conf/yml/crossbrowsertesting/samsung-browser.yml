@@ -3,5 +3,9 @@ CrossBrowserTesting:
     Android:
       "5.0":
         Samsung Browser:
-          "5.4":
+          "6.2":
             Android Galaxy S6:
+      "7.0":
+        Samsung Browser:
+          "6.2":
+            Android Galaxy S7:

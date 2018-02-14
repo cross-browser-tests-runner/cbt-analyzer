@@ -1,6 +1,14 @@
 CrossBrowserTesting:
   JS:
     Android:
+      "6.0":
+        UC Browser:
+          "11.3":
+            Android Nexus 6P:
+      "5.0":
+        UC Browser:
+          "11.3":
+            Android Galaxy S6, Android Nexus 6, Android Nexus 9:
       "4.2":
         UC Browser:
           "11.3":
@@ -9,11 +17,3 @@ CrossBrowserTesting:
         UC Browser:
           "11.4":
             Android Galaxy Tab S:
-      "5.0":
-        UC Browser:
-          "11.3":
-            Android Galaxy S6, Android Nexus 6, Android Nexus 9:
-      "6.0":
-        UC Browser:
-          "11.3":
-            Android Nexus 6P, Android Nexus 9:

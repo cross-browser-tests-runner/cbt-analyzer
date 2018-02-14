@@ -1,12 +1,12 @@
 CrossBrowserTesting:
   JS:
     Ubuntu:
-      Oneiric:
-        Chromium:
-          "14.0":
       Vivid:
         Chromium:
           "43.0, 47.0-48.0":
       Trusty:
         Chromium:
           "43.0, 47.0":
+      Oneiric:
+        Chromium:
+          "14.0":

@@ -3,4 +3,4 @@ CrossBrowserTesting:
     Windows:
       "8 Preview":
         Firefox:
-          "3.5, 3.6, 4.0-57.0":
+          "3.5, 3.6, 4.0-58.0":

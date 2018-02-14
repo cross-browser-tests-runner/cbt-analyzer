@@ -1,0 +1,21 @@
+CrossBrowserTesting:
+  JS:
+    iOS:
+      "4.1":
+        iPhone 3GS, iPhone 4:
+      "4.3":
+        iPad 2:
+      "5.0":
+        iPad 2, iPad 2 Simulator, iPhone 4s:
+      "6.1":
+        iPad 3 Simulator:
+      "7.1":
+        iPad 4 Simulator, iPad Mini Retina Simulator, iPhone 5s Simulator:
+      "10.0":
+        iPhone 7 Plus Simulator, iPhone 7 Simulator:
+      "10.1":
+        iPhone 7:
+      "11.0":
+        iPad Pro Simulator, iPhone 8 Simulator, iPhone X Simulator:
+      "9.3":
+        iPad Air 2 Simulator, iPad Pro Simulator, iPhone 6s Plus Simulator, iPhone 6s Simulator:

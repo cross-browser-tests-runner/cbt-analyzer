@@ -9,7 +9,7 @@
       "localIdentifier": "sleipnir-mobile",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -24,24 +24,10 @@
       "JS": [
         {
           "os": "Android",
-          "osVersion": "4.1",
-          "browser": "Sleipnir Mobile",
-          "browserVersion": "3.5",
-          "device": "Android Galaxy S3"
-        },
-        {
-          "os": "Android",
-          "osVersion": "4.1",
-          "browser": "Sleipnir Mobile",
-          "browserVersion": "3.5",
-          "device": "Android Galaxy Tab 2"
-        },
-        {
-          "os": "Android",
           "osVersion": "4.2",
           "browser": "Sleipnir Mobile",
-          "browserVersion": "2.10",
-          "device": "Android Galaxy S4"
+          "browserVersion": "3.5",
+          "device": "Android Nexus 7"
         },
         {
           "os": "Android",
@@ -54,8 +40,8 @@
           "os": "Android",
           "osVersion": "4.2",
           "browser": "Sleipnir Mobile",
-          "browserVersion": "3.5",
-          "device": "Android Nexus 7"
+          "browserVersion": "2.10",
+          "device": "Android Galaxy S4"
         },
         {
           "os": "Android",
@@ -77,6 +63,20 @@
           "browser": "Sleipnir Mobile",
           "browserVersion": "3.5",
           "device": "Android Nexus 5"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Sleipnir Mobile",
+          "browserVersion": "3.5",
+          "device": "Android Galaxy S3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Sleipnir Mobile",
+          "browserVersion": "3.5",
+          "device": "Android Galaxy Tab 2"
         }
       ]
     }

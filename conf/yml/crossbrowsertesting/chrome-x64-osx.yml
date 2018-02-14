@@ -1,0 +1,21 @@
+CrossBrowserTesting:
+  JS:
+    OS X:
+      High Sierra:
+        Chrome x64:
+          "62.0-64.0":
+      Sierra:
+        Chrome x64:
+          "52.0-64.0":
+      El Capitan:
+        Chrome x64:
+          "39.0-64.0":
+      Mavericks:
+        Chrome x64:
+          "39.0-62.0":
+      Mountain Lion:
+        Chrome x64:
+          "39.0-48.0":
+      Lion:
+        Chrome x64:
+          "39.0-48.0":

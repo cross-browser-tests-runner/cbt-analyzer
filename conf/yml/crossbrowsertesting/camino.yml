@@ -4,3 +4,12 @@ CrossBrowserTesting:
       El Capitan:
         Camino:
           "2.1":
+      Mavericks:
+        Camino:
+          "2.1":
+      Mountain Lion:
+        Camino:
+          "2.1":
+      Lion:
+        Camino:
+          "2.1":

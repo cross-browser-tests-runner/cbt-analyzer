@@ -1,6 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    Windows:
-      "10":
-        Chrome x64:
-          "45.0-62.0":

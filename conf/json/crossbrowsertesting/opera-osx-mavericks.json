@@ -9,7 +9,7 @@
       "localIdentifier": "opera-osx-mavericks",
       "screenshots": true,
       "video": true,
-      "timeout": 40
+      "timeout": 60
     }
   },
   "parallel": {

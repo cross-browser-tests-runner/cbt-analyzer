@@ -9,7 +9,7 @@
       "localIdentifier": "chromium",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {
@@ -22,12 +22,6 @@
   "browsers": {
     "CrossBrowserTesting": {
       "JS": [
-        {
-          "os": "Ubuntu",
-          "osVersion": "Oneiric",
-          "browser": "Chromium",
-          "browserVersion": "14.0"
-        },
         {
           "os": "Ubuntu",
           "osVersion": "Vivid",
@@ -57,6 +51,12 @@
           "osVersion": "Trusty",
           "browser": "Chromium",
           "browserVersion": "47.0"
+        },
+        {
+          "os": "Ubuntu",
+          "osVersion": "Oneiric",
+          "browser": "Chromium",
+          "browserVersion": "14.0"
         }
       ]
     }

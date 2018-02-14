@@ -9,7 +9,7 @@
       "localIdentifier": "firefox-win-7-beta",
       "screenshots": true,
       "video": true,
-      "timeout": 30
+      "timeout": 60
     }
   },
   "parallel": {

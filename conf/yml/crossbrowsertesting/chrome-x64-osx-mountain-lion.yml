@@ -1,6 +1,0 @@
-CrossBrowserTesting:
-  JS:
-    OS X:
-      Mountain Lion:
-        Chrome x64:
-          "39.0-48.0":
