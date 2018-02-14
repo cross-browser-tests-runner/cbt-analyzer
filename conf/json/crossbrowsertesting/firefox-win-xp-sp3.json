@@ -13,7 +13,7 @@
     }
   },
   "parallel": {
-    "CrossBrowserTesting": 5
+    "CrossBrowserTesting": 4
   },
   "server": {
     "port": 8000,
